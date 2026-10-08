@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["1482"],{145(e,a,n){n.d(a,{createEventModelingServices:()=>s.g});var s=n(5896);n(508)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/webiste/en/blog","blogTitle":"Blog","authorsListPath":"/webiste/en/blog/authors"}')}}]);
