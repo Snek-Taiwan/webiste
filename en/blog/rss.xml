@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
-        <link>https://snek-taiwan.github.io/webiste/en/blog</link>
+        <link>https://www.snek.com.tw/en/blog</link>
         <description>SNEK 台灣社群 | SNEK Taiwan Community Blog</description>
         <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,14 +10,14 @@
         <language>en</language>
         <item>
             <title><![CDATA[SNEK 台灣推廣團隊官方網站正式上線]]></title>
-            <link>https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan</link>
-            <guid>https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan</guid>
+            <link>https://www.snek.com.tw/en/blog/welcome-snek-taiwan</link>
+            <guid>https://www.snek.com.tw/en/blog/welcome-snek-taiwan</guid>
             <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[歡迎來到 SNEK 台灣推廣團隊官方網站！]]></description>
             <content:encoded><![CDATA[<p>歡迎來到 SNEK 台灣推廣團隊官方網站！</p>
 <p>本站旨在為台灣與全球繁體中文使用者提供最權威、清晰且完整的 Cardano $SNEK 代幣生態資訊。我們致力於降低 Web3 與去中心化金融的技術門檻，推動社群共識與鏈上安全教育。</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_ANo1" id="本站核心功能介紹">本站核心功能介紹<a href="https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan#%E6%9C%AC%E7%AB%99%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9" class="hash-link" aria-label="Direct link to 本站核心功能介紹" title="Direct link to 本站核心功能介紹" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ANo1" id="本站核心功能介紹">本站核心功能介紹<a href="https://www.snek.com.tw/en/blog/welcome-snek-taiwan#%E6%9C%AC%E7%AB%99%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9" class="hash-link" aria-label="Direct link to 本站核心功能介紹" title="Direct link to 本站核心功能介紹" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>新手買幣教學</strong>：從台灣法幣入金、非託管錢包建立到去中心化交易所 (DEX) 兌換的詳細圖文指南。</li>
 <li class=""><strong>Cardano 錢包手冊</strong>：深入評比 Vespr、Eternl 與 Lace 等主流錢包，提供嚴格的助記詞安全防護法則。</li>

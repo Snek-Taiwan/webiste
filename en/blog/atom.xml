@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://snek-taiwan.github.io/webiste/en/blog</id>
+    <id>https://www.snek.com.tw/en/blog</id>
     <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
     <updated>2026-10-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://snek-taiwan.github.io/webiste/en/blog"/>
+    <link rel="alternate" href="https://www.snek.com.tw/en/blog"/>
     <subtitle>SNEK 台灣社群 | SNEK Taiwan Community Blog</subtitle>
-    <icon>https://snek-taiwan.github.io/webiste/en/img/snek-logo.png</icon>
+    <icon>https://www.snek.com.tw/en/img/snek-logo.png</icon>
     <entry>
         <title type="html"><![CDATA[SNEK 台灣推廣團隊官方網站正式上線]]></title>
-        <id>https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan</id>
-        <link href="https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan"/>
+        <id>https://www.snek.com.tw/en/blog/welcome-snek-taiwan</id>
+        <link href="https://www.snek.com.tw/en/blog/welcome-snek-taiwan"/>
         <updated>2026-10-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[歡迎來到 SNEK 台灣推廣團隊官方網站！]]></summary>
         <content type="html"><![CDATA[<p>歡迎來到 SNEK 台灣推廣團隊官方網站！</p>
 <p>本站旨在為台灣與全球繁體中文使用者提供最權威、清晰且完整的 Cardano $SNEK 代幣生態資訊。我們致力於降低 Web3 與去中心化金融的技術門檻，推動社群共識與鏈上安全教育。</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_ANo1" id="本站核心功能介紹">本站核心功能介紹<a href="https://snek-taiwan.github.io/webiste/en/blog/welcome-snek-taiwan#%E6%9C%AC%E7%AB%99%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9" class="hash-link" aria-label="Direct link to 本站核心功能介紹" title="Direct link to 本站核心功能介紹" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ANo1" id="本站核心功能介紹">本站核心功能介紹<a href="https://www.snek.com.tw/en/blog/welcome-snek-taiwan#%E6%9C%AC%E7%AB%99%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9" class="hash-link" aria-label="Direct link to 本站核心功能介紹" title="Direct link to 本站核心功能介紹" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>新手買幣教學</strong>：從台灣法幣入金、非託管錢包建立到去中心化交易所 (DEX) 兌換的詳細圖文指南。</li>
 <li class=""><strong>Cardano 錢包手冊</strong>：深入評比 Vespr、Eternl 與 Lace 等主流錢包，提供嚴格的助記詞安全防護法則。</li>
@@ -26,7 +26,7 @@
 <p>歡迎探索本站各項內容，並加入我們的社群一同交流討論！</p>]]></content>
         <author>
             <name>SNEK Taiwan Team</name>
-            <uri>https://snek-taiwan.github.io</uri>
+            <uri>https://www.snek.com.tw</uri>
         </author>
         <category label="SNEK" term="SNEK"/>
         <category label="Cardano" term="Cardano"/>
