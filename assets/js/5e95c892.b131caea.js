@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["1668"],{2831(e,s,a){a.r(s),a.d(s,{default:()=>k});var r=a(4686);a(2990);var n=a(3526),t=a(8233),u=a(4222),c=a(6341),i=a(5037);function k(e){return(0,r.jsx)(t.e3,{className:(0,n.A)(u.G.wrapper.docsPages),children:(0,r.jsx)(i.A,{children:(0,c.v)(e.route.routes)})})}}}]);
