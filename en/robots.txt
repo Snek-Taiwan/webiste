@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 搜尋引擎 Sitemap 指引
+Sitemap: https://www.snek.com.tw/sitemap.xml
