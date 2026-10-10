@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["8087"],{6341(t){t.exports=JSON.parse('{"authors":[{"name":"SNEK Taiwan Community","title":"Taiwan Community Contributors","url":"https://www.snek.com.tw","key":"snek_team","page":null,"count":2}]}')}}]);
