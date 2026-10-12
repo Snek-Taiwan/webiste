@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["5165"],{252(e,a,s){s.d(a,{createArchitectureServices:()=>c.S});var c=s(4561);s(508)}}]);
