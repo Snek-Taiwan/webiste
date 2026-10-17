@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.snek.com.tw/en/blog</id>
     <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
-    <updated>2026-10-16T00:00:00.000Z</updated>
+    <updated>2026-10-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.snek.com.tw/en/blog"/>
     <subtitle>SNEK 台灣社群 | SNEK Taiwan Community Blog</subtitle>
     <icon>https://www.snek.com.tw/en/img/media-kit/Token/svg/Snek-Round-BG.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Huge Shoutout to @SnekSignal for Spreading the Word on SNEK Taiwan!]]></title>
+        <id>https://www.snek.com.tw/en/blog/sneksignal-features-snek-taiwan</id>
+        <link href="https://www.snek.com.tw/en/blog/sneksignal-features-snek-taiwan"/>
+        <updated>2026-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A pleasant surprise and warm support from the global community! Prominent Cardano intel hub @SnekSignal recently spotted our official SNEK Taiwan website (snek.com.tw) and voluntarily tweeted to help spread the word to the worldwide Snek ecosystem!]]></summary>
+        <content type="html"><![CDATA[<p>A pleasant surprise and warm support from the global community! Prominent Cardano intel hub <strong><a href="https://x.com/SnekSignal" target="_blank" rel="noopener noreferrer" class="">@SnekSignal</a></strong> recently spotted our official SNEK Taiwan website (<a href="https://snek.com.tw/" target="_blank" rel="noopener noreferrer" class="">snek.com.tw</a>) and voluntarily tweeted to help spread the word to the worldwide Snek ecosystem!</p>
+<!-- -->
+<p>As @SnekSignal highlighted in the tweet:</p>
+<blockquote>
+<p>"$SNEK just got another regional door.<br>
+<!-- -->Snek 1u launched the official SNEK Taiwan site at snek.com.tw — Traditional Chinese hub for token resources, ecosystem updates, and a LINE group.<br>
+<strong>Culture scales when the local language does.</strong> 🐍"<br>
+<!-- -->—— <a href="https://x.com/SnekSignal/status/2110806414239174658" target="_blank" rel="noopener noreferrer" class="">@SnekSignal on X</a></p>
+</blockquote>
+<p>"<strong>Culture scales when the local language does.</strong>"</p>
+<p>We are genuinely grateful to @SnekSignal for recognizing our grassroots efforts and giving our Traditional Chinese community hub such a wonderful shoutout. With the spontaneous backing of global allies, we'll keep building and strengthening the Cardano community in Taiwan!</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Community</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="Cardano" term="Cardano"/>
+        <category label="Taiwan Community" term="Taiwan Community"/>
+        <category label="Announcements" term="Announcements"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SNEK Genesis VIP Pass NFT Officially Launched! Interactive 3D Digital Wallet Pass Now Live]]></title>
         <id>https://www.snek.com.tw/en/blog/snek-genesis-pass-nft</id>
