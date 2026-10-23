@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Meme Bosses 精靈圖動態測試機</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #090a10;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      padding: 24px 16px 60px;
+      text-align: center;
+    }
+    h1 {
+      color: #00e5ff;
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      text-shadow: 0 0 25px rgba(0, 229, 255, 0.45);
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      color: #94a3b8;
+      margin-bottom: 24px;
+      font-size: 1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+
+    /* Boss Selector Bar */
+    .selector-bar {
+      max-width: 780px;
+      margin: 0 auto 24px;
+      background: linear-gradient(135deg, #131726, #1c2237);
+      border: 1px solid #2d3748;
+      border-radius: 16px;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .selector-label {
+      font-weight: bold;
+      color: #ffd700;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .boss-select {
+      flex: 1;
+      min-width: 260px;
+      background: #0d111a;
+      color: #00e5ff;
+      border: 1px solid #3b4252;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 1rem;
+      font-weight: 600;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .boss-select:focus {
+      border-color: #00e5ff;
+      box-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
+    }
+
+    /* Interactive Live Player Card */
+    .player-card {
+      background: linear-gradient(145deg, #121624, #181d30);
+      border: 1px solid #2d3752;
+      border-radius: 20px;
+      max-width: 780px;
+      margin: 0 auto 36px;
+      padding: 24px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
+      position: relative;
+    }
+    .player-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #232a42;
+      padding-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .player-title-wrap {
+      text-align: left;
+    }
+    .player-stage-tag {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #818cf8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .player-title {
+      font-size: 1.45rem;
+      color: #ffd700;
+      font-weight: 800;
+    }
+    .status-badge {
+      background: rgba(0, 229, 255, 0.12);
+      border: 1px solid #00e5ff;
+      color: #00e5ff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-family: monospace;
+      font-weight: 700;
+      transition: all 0.25s;
+    }
+
+    .canvas-container {
+      position: relative;
+      width: 360px;
+      height: 360px;
+      margin: 0 auto 20px;
+      background: radial-gradient(circle, #1a2238 0%, #0a0d16 85%);
+      border: 2px solid #2d3748;
+      border-radius: 18px;
+      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.85), 0 10px 30px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      width: 360px;
+      height: 360px;
+    }
+
+    /* Controls */
+    .controls {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .btn {
+      padding: 12px 20px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-idle {
+      background: #2d3748;
+      color: #e2e8f0;
+    }
+    .btn-idle:hover {
+      background: #4a5568;
+    }
+    .btn-attack {
+      background: linear-gradient(135deg, #ff9100, #ff3d00);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(255, 61, 0, 0.4);
+    }
+    .btn-attack:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 6px 22px rgba(255, 61, 0, 0.6);
+    }
+    .btn-berserk {
+      background: linear-gradient(135deg, #d500f9, #651fff);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(101, 31, 255, 0.4);
+    }
+    .btn-berserk:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 6px 22px rgba(101, 31, 255, 0.6);
+    }
+    .btn-nav {
+      background: #1e293b;
+      color: #94a3b8;
+      border: 1px solid #334155;
+    }
+    .btn-nav:hover {
+      background: #334155;
+      color: #fff;
+    }
+
+    .boss-stats-panel {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-top: 14px;
+      text-align: left;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: #64748b;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .stat-val {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #cbd5e1;
+    }
+
+    /* Sprite Sheet Showcase */
+    .sheet-section {
+      max-width: 880px;
+      margin: 0 auto 36px;
+      background: #131726;
+      border: 1px solid #242c44;
+      border-radius: 18px;
+      padding: 22px;
+      text-align: left;
+    }
+    .sheet-section h2 {
+      color: #00e5ff;
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sheet-preview {
+      background: #090c14;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 14px;
+      padding: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 180px;
+    }
+    .sheet-preview img {
+      width: 100%;
+      max-height: 280px;
+      object-fit: contain;
+      display: block;
+      border-radius: 6px;
+    }
+    .sheet-desc {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 10px;
+      padding: 12px 16px;
+    }
+
+    /* Full 10 Meme Boss Gallery Grid */
+    .gallery-section {
+      max-width: 980px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .gallery-title {
+      color: #00e5ff;
+      font-size: 1.35rem;
+      margin-bottom: 16px;
+      font-weight: 800;
+      text-align: center;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .gallery-card {
+      background: #131726;
+      border: 1px solid #232a3e;
+      border-radius: 14px;
+      padding: 12px;
+      text-align: center;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .gallery-card:hover {
+      transform: translateY(-4px);
+      border-color: #00e5ff;
+      box-shadow: 0 8px 20px rgba(0, 229, 255, 0.25);
+    }
+    .gallery-card.active {
+      border-color: #ffd700;
+      background: linear-gradient(145deg, #1b2138, #182035);
+      box-shadow: 0 0 18px rgba(255, 215, 0, 0.3);
+    }
+    .gallery-thumb-wrap {
+      width: 100%;
+      height: 110px;
+      background: #090c15;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+    }
+    .gallery-thumb-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .gallery-stage {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #818cf8;
+      margin-bottom: 2px;
+    }
+    .gallery-name {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #ffd700;
+      margin-bottom: 4px;
+    }
+    .gallery-action {
+      font-size: 0.75rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐕 Top 10 Meme Bosses 全球頂流迷因首領精靈圖動態測試機</h1>
+  <p class="subtitle">全面適配 10 款頂流 Meme 精靈圖（3-Frame Sprite Sheets）。內建無失真 Aspect Ratio 鎖定、待機正弦波浮動呼吸、蓄力前搖、打擊震波與暴怒態粒子預覽！</p>
+
+  <!-- Boss Selector Bar -->
+  <div class="selector-bar">
+    <div class="selector-label">🎯 當前測試首領：</div>
+    <select id="bossSelect" class="boss-select" onchange="changeBoss(parseInt(this.value))">
+      <!-- Options injected by JS -->
+    </select>
+  </div>
+
+  <!-- Interactive Live Player -->
+  <div class="player-card">
+    <div class="player-header">
+      <div class="player-title-wrap">
+        <div id="playerStageTag" class="player-stage-tag">STAGE 1 · MEME GOD</div>
+        <div id="playerTitle" class="player-title">始祖神犬 · DOGE KING</div>
+      </div>
+      <div id="statusBadge" class="status-badge">STATE: IDLE (待機呼吸)</div>
+    </div>
+
+    <div class="canvas-container">
+      <canvas id="bossCanvas" width="360" height="360"></canvas>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-nav" onclick="prevBoss()">◀ 上一隻</button>
+      <button class="btn btn-idle" onclick="setAnimState('IDLE')">🍃 待機 (Idle)</button>
+      <button id="attackBtn" class="btn btn-attack" onclick="triggerAttack()">💥 發動專屬打擊</button>
+      <button class="btn btn-berserk" onclick="toggleBerserk()">🔥 切換暴怒態 (Berserk)</button>
+      <button class="btn btn-nav" onclick="nextBoss()">下一隻 ▶</button>
+    </div>
+
+    <div class="boss-stats-panel">
+      <div class="stat-item">
+        <span class="stat-label">首領血量 (Base HP)</span>
+        <span id="statHp" class="stat-val">2,200 HP</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">專屬彈幕 / 絕招</span>
+        <span id="statSkill" class="stat-val">黃金柴犬神威彈幕</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">打擊音效 / 飄字</span>
+        <span id="statSfx" class="stat-val">BORK! 🐕</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">專屬主題色彩</span>
+        <span id="statColor" class="stat-val" style="color: #ffd700;">#ffd700 (黃金)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Raw Sprite Sheet View -->
+  <div class="sheet-section">
+    <h2>📋 原始連續精靈圖拆解 (3-Frame Sprite Sheet)</h2>
+    <div class="sheet-preview">
+      <img id="rawSheetImg" src="./boss_doge_spritesheet.png" alt="Sprite Sheet">
+    </div>
+    <div id="sheetDesc" class="sheet-desc">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <!-- Full 10 Meme Boss Gallery Grid -->
+  <div class="gallery-section">
+    <div class="gallery-title">👑 十大頂流 Meme 首領總覽 (點擊卡片直接切換測試)</div>
+    <div id="galleryGrid" class="gallery-grid">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <script>
+    const BOSS_DATA = [
+      {
+        stage: 1,
+        id: 'DOGE_KING',
+        title: '始祖神犬 · DOGE KING',
+        stageTag: 'STAGE 1 · MEME FORERUNNER',
+        hp: '2,200 HP',
+        color: '#ffd700',
+        sheetSrc: './boss_doge_spritesheet.png',
+        sfx: 'BORK! 🐕',
+        skill: '黃金柴犬神威彈幕 (金幣螺旋星)',
+        desc: '• <strong>Frame 0 (左)</strong>: 傲嬌歪頭自信微笑，浮空皇冠正弦波呼吸。<br>• <strong>Frame 1 (中)</strong>: 雙眼凝聚金光，蓄力前搖。<br>• <strong>Frame 2 (右)</strong>: 張嘴狂吠「BORK!」，金色 Doge 幣如星群般四散暴扣！'
+      },
+      {
+        stage: 2,
+        id: 'PEPE_FROG',
+        title: '悲傷蛙神 · PEPE THE FROG',
+        stageTag: 'STAGE 2 · SAD WIZARD',
+        hp: '4,800 HP',
+        color: '#00e676',
+        sheetSrc: './boss_pepe_spritesheet.png',
+        sfx: 'REEE! 🐸',
+        skill: '悲傷淚光雷射 (雙眼巨眼死光)',
+        desc: '• <strong>Frame 0 (左)</strong>: 憂鬱翡翠法袍待機，法杖寶珠微微發亮。<br>• <strong>Frame 1 (中)</strong>: 高舉法杖，雙眼噙滿淚光充能。<br>• <strong>Frame 2 (右)</strong>: 悲傷絕望爆發「REEE!」，雙眼射出高能綠色淚水毀滅射線！'
+      },
+      {
+        stage: 3,
+        id: 'WHALE_GOD',
+        title: '萬億巨鯨 · WHALE GOD',
+        stageTag: 'STAGE 3 · MOB OVERLORD',
+        hp: '8,800 HP',
+        color: '#00b0ff',
+        sheetSrc: './boss_whale_spritesheet.png',
+        sfx: 'GULP! 🐋',
+        skill: '引力吞噬黑洞 (割韭菜回血 150HP)',
+        desc: '• <strong>Frame 0 (左)</strong>: 墨鏡西裝巨鯨叼著雪茄從容游弋。<br>• <strong>Frame 1 (中)</strong>: 深吸大口氣，嘴部形成引力渦流牽引場上小怪。<br>• <strong>Frame 2 (右)</strong>: 巨口暴張吞噬韭菜「GULP! 🩸」，金鈔噴發並瞬間回血！'
+      },
+      {
+        stage: 4,
+        id: 'WIF_HAT',
+        title: '戴帽神柴 · DOGWIFHAT',
+        stageTag: 'STAGE 4 · COSY RAZOR',
+        hp: '13,500 HP',
+        color: '#ff4081',
+        sheetSrc: './boss_wif_spritesheet.png',
+        sfx: 'WOOF! 🧢',
+        skill: '毛帽迴旋剃刀 (粉紅雷光斬)',
+        desc: '• <strong>Frame 0 (左)</strong>: 戴著標誌性粉紅條紋毛帽待機，萌感十足。<br>• <strong>Frame 1 (中)</strong>: 小爪扶帽，粉紅電弧爆裂蓄力。<br>• <strong>Frame 2 (右)</strong>: 甩出高速旋轉的粉紅毛帽剃刀，斬裂全場戰場！'
+      },
+      {
+        stage: 5,
+        id: 'BONK_MASTER',
+        title: '球棒制裁者 · BONK MASTER',
+        stageTag: 'STAGE 5 · SLUGGER GOD',
+        hp: '19,000 HP',
+        color: '#ff9100',
+        sheetSrc: './boss_bonk_spritesheet.png',
+        sfx: 'BONK! 🏏',
+        skill: '球棒重擊暴扣 (全屏震盪波)',
+        desc: '• <strong>Frame 0 (左)</strong>: 扛著黃色球棒微笑待機，自信滿滿。<br>• <strong>Frame 1 (中)</strong>: 雙手將球棒反手舉過頭頂，全身後仰蓄力。<br>• <strong>Frame 2 (右)</strong>: 猛力下砸「BONK!」，漫畫衝擊線與黃金地震環擴散！'
+      },
+      {
+        stage: 6,
+        id: 'POPCAT_OVERLORD',
+        title: '魔性啵啵貓 · POPCAT OVERLORD',
+        stageTag: 'STAGE 6 · SONIC POP',
+        hp: '25,500 HP',
+        color: '#00e5ff',
+        sheetSrc: './boss_popcat_spritesheet.png',
+        sfx: 'POP! 🐱',
+        skill: '全屏魔性 POP 聲波光環',
+        desc: '• <strong>Frame 0 (左)</strong>: 閉嘴呆萌小貓臉待機。<br>• <strong>Frame 1 (中)</strong>: 嘴巴微微張開，眼睛瞪圓預備。<br>• <strong>Frame 2 (右)</strong>: 張開極致巨大的 O 型大嘴猛喊「POP!」，聲波擴散！'
+      },
+      {
+        stage: 7,
+        id: 'FLOKI_VIKING',
+        title: '維京海盜王 · FLOKI THE VIKING',
+        stageTag: 'STAGE 7 · BERSERKER',
+        hp: '33,000 HP',
+        color: '#ffab00',
+        sheetSrc: './boss_floki_spritesheet.png',
+        sfx: 'SKOL! 🪓',
+        skill: '雙斧十字旋風斬 (北歐符文衝擊)',
+        desc: '• <strong>Frame 0 (左)</strong>: 身披維京牛角盔，手持戰斧與盾牌威嚴待機。<br>• <strong>Frame 1 (中)</strong>: 仰天怒吼，雙斧高舉，北歐符文藍焰閃爍。<br>• <strong>Frame 2 (右)</strong>: 雙斧交叉劈斬「SKOL!」，旋轉烈焰斧風暴撕碎空間！'
+      },
+      {
+        stage: 8,
+        id: 'MOODENG_TERROR',
+        title: '暴躁彈跳豬 · MOO DENG',
+        stageTag: 'STAGE 8 · PYGMY TERROR',
+        hp: '42,000 HP',
+        color: '#ea80fc',
+        skill: '彈跳狂暴撕咬 (粉紅泥水衝撞)',
+        sheetSrc: './boss_moodeng_spritesheet.png',
+        sfx: 'CHOMP! 🦛',
+        desc: '• <strong>Frame 0 (左)</strong>: 圓滾滾濕漉漉侏儒河馬寶寶，粉嫩腮紅呼吸。<br>• <strong>Frame 1 (中)</strong>: 四肢下蹲蓄力，耳朵抖動，準備暴跳。<br>• <strong>Frame 2 (右)</strong>: 狂暴張嘴撲咬「CHOMP!」，泥水四濺，全速暴走！'
+      },
+      {
+        stage: 9,
+        id: 'WOJAK_TRADER',
+        title: '麥當勞哭哭男 · WOJAK DOWN-ONLY',
+        stageTag: 'STAGE 9 · RETAIL TRAGEDY',
+        hp: '52,000 HP',
+        color: '#ff1744',
+        sheetSrc: './boss_wojak_spritesheet.png',
+        sfx: 'GUH! 🍟',
+        skill: '瀑布淚光衝擊 (萬丈爆倉大陰線)',
+        desc: '• <strong>Frame 0 (左)</strong>: 戴著麥當勞工作帽呆看紅 K 線待機。<br>• <strong>Frame 1 (中)</strong>: 抱頭痛哭崩潰前搖，行情暴跌倒數。<br>• <strong>Frame 2 (右)</strong>: 仰天悲鳴「GUH!」，狂瀉萬丈大陰線與淚水瀑布！'
+      },
+      {
+        stage: 10,
+        id: 'GIGACHAD_OMEGA',
+        title: '終極完美型男 · GIGACHAD ASCENDED',
+        stageTag: 'STAGE 10 · ASCENDED GOD',
+        hp: '65,000 HP',
+        color: '#ffd700',
+        sheetSrc: './boss_gigachad_spritesheet.png',
+        sfx: 'CHAD! 🗿',
+        skill: '完美下顎金光 (雙眼終極死光)',
+        desc: '• <strong>Frame 0 (左)</strong>: 極致下顎線側面微笑，雙手抱胸自信金光。<br>• <strong>Frame 1 (中)</strong>: 單手撫摸刀削下巴，肌肉暴脹，歐米茄光環點亮。<br>• <strong>Frame 2 (右)</strong>: 轉身正對鏡頭「CHAD!」，雙眼迸射神級金光死光射線！'
+      }
+    ];
+
+    let currentBossIndex = 0;
+    let animState = 'IDLE'; // 'IDLE', 'ATTACK_WINDUP', 'ATTACK_STRIKE'
+    let isBerserk = false;
+    let attackTimer = 0;
+    let attackDuration = 0.55;
+    let lastTime = performance.now();
+    let shockwaveRadius = 0;
+    let imgReady = false;
+
+    const canvas = document.getElementById('bossCanvas');
+    const ctx = canvas.getContext('2d');
+    const bossSelect = document.getElementById('bossSelect');
+    const playerStageTag = document.getElementById('playerStageTag');
+    const playerTitle = document.getElementById('playerTitle');
+    const statusBadge = document.getElementById('statusBadge');
+    const statHp = document.getElementById('statHp');
+    const statSkill = document.getElementById('statSkill');
+    const statSfx = document.getElementById('statSfx');
+    const statColor = document.getElementById('statColor');
+    const rawSheetImg = document.getElementById('rawSheetImg');
+    const sheetDesc = document.getElementById('sheetDesc');
+    const galleryGrid = document.getElementById('galleryGrid');
+    const attackBtn = document.getElementById('attackBtn');
+
+    const sheetImg = new Image();
+
+    // Initialize UI
+    function initUI() {
+      bossSelect.innerHTML = BOSS_DATA.map((b, idx) => 
+        `<option value="${idx}">Stage ${b.stage}: ${b.title}</option>`
+      ).join('');
+
+      galleryGrid.innerHTML = BOSS_DATA.map((b, idx) => `
+        <div class="gallery-card ${idx === 0 ? 'active' : ''}" id="card_${idx}" onclick="changeBoss(${idx})">
+          <div class="gallery-thumb-wrap">
+            <img src="${b.sheetSrc}" alt="${b.title}" loading="lazy">
+          </div>
+          <div class="gallery-stage">STAGE ${b.stage}</div>
+          <div class="gallery-name">${b.title.split('·')[1] || b.title}</div>
+          <div class="gallery-action">${b.sfx}</div>
+        </div>
+      `).join('');
+
+      changeBoss(0);
+    }
+
+    function changeBoss(index) {
+      currentBossIndex = index;
+      bossSelect.value = index;
+
+      const boss = BOSS_DATA[index];
+      playerStageTag.textContent = boss.stageTag;
+      playerTitle.textContent = boss.title;
+      playerTitle.style.color = boss.color;
+      statHp.textContent = boss.hp;
+      statSkill.textContent = boss.skill;
+      statSfx.textContent = boss.sfx;
+      statColor.textContent = `${boss.color}`;
+      statColor.style.color = boss.color;
+      attackBtn.textContent = `💥 發動「${boss.sfx.split(' ')[0]}」打擊`;
+
+      rawSheetImg.src = boss.sheetSrc;
+      sheetDesc.innerHTML = `<strong>【${boss.title}】影格動作拆解：</strong><br>${boss.desc}`;
+
+      // Update active card
+      document.querySelectorAll('.gallery-card').forEach((c, i) => {
+        c.classList.toggle('active', i === index);
+      });
+
+      // Load Sprite
+      imgReady = false;
+      sheetImg.src = boss.sheetSrc;
+      sheetImg.onload = () => { imgReady = true; };
+      sheetImg.onerror = () => {
+        console.warn('Image load error for:', boss.sheetSrc);
+        imgReady = false;
+      };
+
+      setAnimState('IDLE');
+    }
+
+    function nextBoss() {
+      const nextIdx = (currentBossIndex + 1) % BOSS_DATA.length;
+      changeBoss(nextIdx);
+    }
+
+    function prevBoss() {
+      const prevIdx = (currentBossIndex - 1 + BOSS_DATA.length) % BOSS_DATA.length;
+      changeBoss(prevIdx);
+    }
+
+    function setAnimState(state) {
+      animState = state;
+      updateBadge();
+    }
+
+    function triggerAttack() {
+      animState = 'ATTACK_WINDUP';
+      attackTimer = 0;
+      shockwaveRadius = 0;
+      updateBadge();
+    }
+
+    function toggleBerserk() {
+      isBerserk = !isBerserk;
+      updateBadge();
+    }
+
+    function updateBadge() {
+      const boss = BOSS_DATA[currentBossIndex];
+      if (animState.startsWith('ATTACK')) {
+        statusBadge.textContent = `STATE: 💥 ATTACK (${boss.sfx.split(' ')[0]})`;
+        statusBadge.style.color = boss.color;
+        statusBadge.style.borderColor = boss.color;
+      } else if (isBerserk) {
+        statusBadge.textContent = 'STATE: 🔥 BERSERK (暴怒狂暴態)';
+        statusBadge.style.color = '#d500f9';
+        statusBadge.style.borderColor = '#d500f9';
+      } else {
+        statusBadge.textContent = 'STATE: IDLE (待機呼吸)';
+        statusBadge.style.color = '#00e5ff';
+        statusBadge.style.borderColor = '#00e5ff';
+      }
+    }
+
+    function loop(now) {
+      const dt = Math.min(0.1, (now - lastTime) / 1000);
+      lastTime = now;
+      const boss = BOSS_DATA[currentBossIndex];
+
+      // Update Attack Timeline
+      if (animState === 'ATTACK_WINDUP') {
+        attackTimer += dt;
+        if (attackTimer >= 0.2) {
+          animState = 'ATTACK_STRIKE';
+          shockwaveRadius = 16;
+          updateBadge();
+        }
+      } else if (animState === 'ATTACK_STRIKE') {
+        attackTimer += dt;
+        shockwaveRadius += dt * 420;
+        if (attackTimer >= attackDuration) {
+          animState = 'IDLE';
+          updateBadge();
+        }
+      }
+
+      // Render
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      const centerX = canvas.width / 2;
+      const centerY = canvas.height / 2;
+
+      // Draw Shockwave ring on strike
+      if (animState === 'ATTACK_STRIKE' && shockwaveRadius > 0) {
+        ctx.save();
+        ctx.strokeStyle = boss.color;
+        ctx.lineWidth = 4;
+        ctx.shadowColor = boss.color;
+        ctx.shadowBlur = 20;
+        ctx.globalAlpha = Math.max(0, 1 - shockwaveRadius / 200);
+        ctx.beginPath();
+        ctx.arc(centerX, centerY + 30, shockwaveRadius, 0, Math.PI * 2);
+        ctx.stroke();
+
+        // Draw Comic Floating text
+        ctx.fillStyle = boss.color;
+        ctx.font = '900 32px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.shadowBlur = 16;
+        ctx.shadowColor = '#000';
+        ctx.fillText(boss.sfx, centerX, centerY - 95);
+        ctx.restore();
+      }
+
+      if (imgReady && sheetImg.complete && sheetImg.naturalWidth > 0) {
+        // Frame Index (0: Idle, 1: Windup, 2: Attack)
+        let frameIndex = 0;
+        if (animState === 'ATTACK_WINDUP') frameIndex = 1;
+        else if (animState === 'ATTACK_STRIKE') frameIndex = 2;
+
+        const timeSec = now / 1000;
+        const bobbing = animState === 'IDLE' ? Math.sin(timeSec * 3) * 7 : 0;
+        const breathScale = animState === 'IDLE' ? 1 + Math.sin(timeSec * 4) * 0.03 : 1;
+
+        let shakeX = 0;
+        let shakeY = 0;
+        if (isBerserk || animState === 'ATTACK_WINDUP') {
+          shakeX = (Math.random() - 0.5) * 8;
+          shakeY = (Math.random() - 0.5) * 8;
+        }
+
+        ctx.save();
+        ctx.translate(centerX + shakeX, centerY + bobbing + shakeY);
+        ctx.scale(breathScale, breathScale);
+
+        // Berserk Aura
+        if (isBerserk) {
+          ctx.save();
+          ctx.strokeStyle = 'rgba(213, 0, 249, 0.8)';
+          ctx.lineWidth = 3.5;
+          ctx.shadowColor = '#d500f9';
+          ctx.shadowBlur = 28;
+          ctx.setLineDash([10, 7]);
+          ctx.lineDashOffset = -now / 18;
+          ctx.beginPath();
+          ctx.arc(0, 0, 115, 0, Math.PI * 2);
+          ctx.stroke();
+          ctx.restore();
+        }
+
+        // Slice Frame from 3-frame Sprite Sheet (1 row, 3 columns)
+        const frameWidth = sheetImg.naturalWidth / 3;
+        const frameHeight = sheetImg.naturalHeight;
+        const sx = frameIndex * frameWidth;
+        const sy = 0;
+
+        // Maintain exact aspect ratio to prevent squishing!
+        const renderHeight = 260;
+        const renderWidth = renderHeight * (frameWidth / frameHeight);
+        ctx.drawImage(
+          sheetImg,
+          sx, sy, frameWidth, frameHeight,
+          -renderWidth / 2, -renderHeight / 2, renderWidth, renderHeight
+        );
+        ctx.restore();
+      } else {
+        // Loading state
+        ctx.fillStyle = '#64748b';
+        ctx.font = '15px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(`載入 ${boss.title} 精靈圖中...`, centerX, centerY);
+      }
+
+      requestAnimationFrame(loop);
+    }
+
+    initUI();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>
