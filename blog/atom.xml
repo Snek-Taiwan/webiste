@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.snek.com.tw/blog</id>
     <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
-    <updated>2026-10-17T00:00:00.000Z</updated>
+    <updated>2026-10-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.snek.com.tw/blog"/>
     <subtitle>SNEK 台灣社群 | SNEK Taiwan Community Blog</subtitle>
     <icon>https://www.snek.com.tw/img/media-kit/Token/svg/Snek-Round-BG.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[SNEK 街機小遊戲：先行試玩開放！]]></title>
+        <id>https://www.snek.com.tw/blog/snek-arcade-early-playtest</id>
+        <link href="https://www.snek.com.tw/blog/snek-arcade-early-playtest"/>
+        <updated>2026-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[喜愛 SNEK 的夥伴們，官網的網頁街機小遊戲「SNEK 倖存者」搶先體驗版現已開放試玩！現在只要打開瀏覽器，點擊頂部導覽列的「街機遊戲」，就能隨時展開一場緊張刺激的 Rogue-lite 生存挑戰。]]></summary>
+        <content type="html"><![CDATA[<p>喜愛 SNEK 的夥伴們，官網的網頁街機小遊戲「<strong>SNEK 倖存者</strong>」搶先體驗版現已開放試玩！現在只要打開瀏覽器，點擊頂部導覽列的「<a href="https://www.snek.com.tw/game/" target="_blank" rel="noopener noreferrer" class=""><strong>街機遊戲</strong></a>」，就能隨時展開一場緊張刺激的 Rogue-lite 生存挑戰。</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="SNEK Arcade Preview" src="https://www.snek.com.tw/assets/images/Snek%20Banana%201200x630-ec69004f4423a3f9fa62b3dfc6e213f9.webp" width="1200" height="630" class="img_V3Nd"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-試玩說明早期開發中預覽">⚠️ 試玩說明：早期開發中預覽<a href="https://www.snek.com.tw/blog/snek-arcade-early-playtest#%EF%B8%8F-%E8%A9%A6%E7%8E%A9%E8%AA%AA%E6%98%8E%E6%97%A9%E6%9C%9F%E9%96%8B%E7%99%BC%E4%B8%AD%E9%A0%90%E8%A6%BD" class="hash-link" aria-label="⚠️ 試玩說明：早期開發中預覽的直接連結" title="⚠️ 試玩說明：早期開發中預覽的直接連結" translate="no">​</a></h2>
+<p>需要向大家特別說明的是，<strong>這還不是正式的完整版本</strong>！</p>
+<p>遊戲目前仍處於積極開發與迭代階段，還有許多機制與功能（包含更豐富的戰鬥裝備、全球排行榜競賽、音效細節與戰鬥數值平衡）正在陸續施工中。</p>
+<p>這次搶先開放先行試玩，主要希望讓社群夥伴們能第一時間感受操控 SNEK 蛇蛇迎戰各路迷因首領的樂趣，並藉此收集大家的真實遊玩反饋，幫助我們把遊戲做得更耐玩、更有趣！</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="-目前版本核心體驗">🎮 目前版本核心體驗<a href="https://www.snek.com.tw/blog/snek-arcade-early-playtest#-%E7%9B%AE%E5%89%8D%E7%89%88%E6%9C%AC%E6%A0%B8%E5%BF%83%E9%AB%94%E9%A9%97" class="hash-link" aria-label="🎮 目前版本核心體驗的直接連結" title="🎮 目前版本核心體驗的直接連結" translate="no">​</a></h2>
+<p>即使還在早期開發階段，目前的試玩版已經具備完整的核心戰鬥樂趣：</p>
+<ul>
+<li class="">🚀 <strong>免安裝隨開即玩</strong>：原生純網頁開發，手機支援虛擬搖桿與單指滑動，電腦支援鍵盤 WASD 操作。</li>
+<li class="">⚔️ <strong>迎戰 10 大迷因首領</strong>：每一關都擁有專屬戰鬥機制的 Meme Boss（始祖神犬、悲傷蛙神、萬億巨鯨、戴帽神柴、球棒制裁者等陸續登場）。</li>
+<li class="">💾 <strong>進度自動儲存與關卡直通</strong>：戰勝首領自動儲存當下戰力快照，下次可直接挑選已擊敗首領直通開戰。</li>
+<li class="">🌐 <strong>全雙語系支援</strong>：即時支援繁體中文與英文雙語切換。</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-立即進入遊戲試玩">🕹️ 立即進入遊戲試玩<a href="https://www.snek.com.tw/blog/snek-arcade-early-playtest#%EF%B8%8F-%E7%AB%8B%E5%8D%B3%E9%80%B2%E5%85%A5%E9%81%8A%E6%88%B2%E8%A9%A6%E7%8E%A9" class="hash-link" aria-label="🕹️ 立即進入遊戲試玩的直接連結" title="🕹️ 立即進入遊戲試玩的直接連結" translate="no">​</a></h2>
+<p>歡迎所有夥伴直接前往體驗：</p>
+<p>👉 <strong><a href="https://www.snek.com.tw/game/" target="_blank" rel="noopener noreferrer" class="">立即體驗 SNEK 街機遊戲（snek.com.tw/game/）</a></strong></p>
+<p>若在遊玩過程中遇到任何問題或有天馬行空的有趣點子，非常歡迎隨時在官方 LINE 社群或 X（Twitter）上與我們分享，讓我們一起把這款屬於 SNEK 社群的小遊戲打磨得更好玩！</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="官方公告" term="官方公告"/>
+        <category label="街機遊戲" term="街機遊戲"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[感謝 @SnekSignal 熱情推薦！SNEK 台灣官網獲海外社群主動推廣]]></title>
         <id>https://www.snek.com.tw/blog/sneksignal-features-snek-taiwan</id>

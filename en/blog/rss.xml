@@ -4,10 +4,42 @@
         <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
         <link>https://www.snek.com.tw/en/blog</link>
         <description>SNEK 台灣社群 | SNEK Taiwan Community Blog</description>
-        <lastBuildDate>Sat, 17 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SNEK Arcade: Early Playtest Now Live!]]></title>
+            <link>https://www.snek.com.tw/en/blog/snek-arcade-early-playtest</link>
+            <guid>https://www.snek.com.tw/en/blog/snek-arcade-early-playtest</guid>
+            <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Exciting news for the SNEK community! An early playtest version of our web arcade minigame, SNEK Survivor, is now open directly in your browser. Simply click "Arcade Game" in the top navigation bar to jump into the Rogue-lite action anytime, anywhere.]]></description>
+            <content:encoded><![CDATA[<p>Exciting news for the SNEK community! An early playtest version of our web arcade minigame, <strong>SNEK Survivor</strong>, is now open directly in your browser. Simply click "<a href="https://www.snek.com.tw/en/game/" target="_blank" rel="noopener noreferrer" class=""><strong>Arcade Game</strong></a>" in the top navigation bar to jump into the Rogue-lite action anytime, anywhere.</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="SNEK Arcade Preview" src="https://www.snek.com.tw/en/assets/images/Snek%20Banana%201200x630-ec69004f4423a3f9fa62b3dfc6e213f9.webp" width="1200" height="630" class="img_V3Nd"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-a-note-on-the-early-playtest">⚠️ A Note on the Early Playtest<a href="https://www.snek.com.tw/en/blog/snek-arcade-early-playtest#%EF%B8%8F-a-note-on-the-early-playtest" class="hash-link" aria-label="Direct link to ⚠️ A Note on the Early Playtest" title="Direct link to ⚠️ A Note on the Early Playtest" translate="no">​</a></h2>
+<p>Please note: <strong>This is NOT a finished final release!</strong></p>
+<p>The minigame is under active development. Many exciting features — including expanded weapon arsenals, global leaderboards, refined sound effects, and deeper balancing — are still in the oven and being continuously iterated.</p>
+<p>We're opening this early playtest so community members can hop in, test their reflexes battling iconic meme bosses, and share hands-on feedback to help shape future updates!</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="-what-you-can-play-right-now">🎮 What You Can Play Right Now<a href="https://www.snek.com.tw/en/blog/snek-arcade-early-playtest#-what-you-can-play-right-now" class="hash-link" aria-label="Direct link to 🎮 What You Can Play Right Now" title="Direct link to 🎮 What You Can Play Right Now" translate="no">​</a></h2>
+<p>Even in this early build, the core survival combat loop is fully playable:</p>
+<ul>
+<li class="">🚀 <strong>Zero Install, Play Anywhere</strong>: Runs smoothly right in your mobile or desktop browser with responsive touch joystick and WASD keyboard controls.</li>
+<li class="">⚔️ <strong>10 Distinct Meme Bosses</strong>: Face off against iconic meme characters with custom combat patterns, including Doge King, Pepe the Frog, Whale God, Dogwifhat, Bonk Master, and more.</li>
+<li class="">💾 <strong>Auto-Save &amp; Boss Stage Select</strong>: Defeating a boss automatically records your combat snapshot, allowing direct stage challenges from the boss menu.</li>
+<li class="">🌐 <strong>Full Bilingual Support</strong>: Instant toggling between Traditional Chinese and English.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-hop-in-and-try-it-out">🕹️ Hop In and Try It Out!<a href="https://www.snek.com.tw/en/blog/snek-arcade-early-playtest#%EF%B8%8F-hop-in-and-try-it-out" class="hash-link" aria-label="Direct link to 🕹️ Hop In and Try It Out!" title="Direct link to 🕹️ Hop In and Try It Out!" translate="no">​</a></h2>
+<p>Everyone is invited to take it for a spin:</p>
+<p>👉 <strong><a href="https://www.snek.com.tw/en/game/" target="_blank" rel="noopener noreferrer" class="">Play SNEK Arcade Now (snek.com.tw/game/)</a></strong></p>
+<p>Have feedback, balance suggestions, or cool meme ideas? Feel free to reach out to us on X (Twitter) or in our community chat. Let's build something epic together!</p>]]></content:encoded>
+            <category>SNEK</category>
+            <category>Announcements</category>
+            <category>Arcade Game</category>
+        </item>
         <item>
             <title><![CDATA[Huge Shoutout to @SnekSignal for Spreading the Word on SNEK Taiwan!]]></title>
             <link>https://www.snek.com.tw/en/blog/sneksignal-features-snek-taiwan</link>
