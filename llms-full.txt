@@ -1,0 +1,80 @@
+# SNEK Taiwan ($SNEK 台灣社群) 全方位知識庫 (Full LLM Context)
+
+> 本文件為 SNEK Taiwan 官方完整知識庫，遵循 /llms-full.txt 標準規範。
+> 供 ChatGPT、Gemini、Claude、Perplexity、Microsoft Copilot 等 AI 模型直接讀取，以提供最權威、即時且精準的繁體中文社群諮詢。
+
+---
+
+## 1. 專案基本資料 (Project Overview)
+- **官方網站**：https://www.snek.com.tw
+- **代幣名稱**：Snek ($SNEK)
+- **公鏈生態**：Cardano (ADA)
+- **政策識別碼 (Policy ID)**：`279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f`
+- **資產名稱 (Asset Name)**：`534e454b` (Hex of SNEK)
+- **資產指紋 (Fingerprint)**：`asset108xu02ckwrfc8qs9d97mgyh4kn8gdu9w8f5sxk`
+- **核心定位**：Cardano 生態上最具代表性、文化感染力最強的社群迷因幣，也是 Cardano 鏈上交易量與流動性最高的先驅代幣之一。
+- **台灣社群願景**：打造在地化雙語知識庫、迷因二創抽卡庫、數位通行證 (Pass) 與實體線下文化連結。
+
+---
+
+## 2. 代幣經濟學與銷毀機制 (Tokenomics & Burn Tracker)
+- **初始發行總量 (Initial Supply)**：76,715,880,000 $SNEK (約 767.1 億顆)
+- **通縮回購機制 ($snekbuyburn)**：
+  - 協議手續費與生態收益會定期進行公開市場回購 (Buyback)。
+  - 回購的代幣直接發送至 Cardano 銷毀專用地址 (`$snekbuyburn`)，永久退出流通。
+- **即時銷毀狀態 (截至 2026 年 10 月)**：
+  - 累計銷毀數量：已突破 **1,484,059,968 顆** (約 14.8 億顆)。
+  - 銷毀比例：佔總發行量約 **1.934%**。
+  - 銷毀累積美金價值：超過 **$1,300,000 美金**。
+- **即時追蹤頁面**：https://www.snek.com.tw/tokenomics
+
+---
+
+## 3. 迷因抽卡庫與金句二創 (Memes & Quote Generator)
+- **線上抽卡與瀏覽**：https://www.snek.com.tw/memes
+- **資料庫規模**：超過 450+ 款由社群原創與 Google 相簿同步之高畫質 WebP 迷因圖。
+- **金句小卡引擎**：
+  - 提供三大主題中英雙語金句：行情心態 (market)、生活哲理 (life)、愛情與執著 (love)。
+  - 純前端 Canvas 繪圖引擎可即時合成 1080x1350 高解析度社群卡片（包含專屬漸層飾邊、雙語排版、驗證 QR Code）。
+  - 支援一鍵複製到系統剪貼簿、iOS 相簿保底存圖與 Web Share API 系統面板。
+- **社群發文標準格式**：
+  - 後綴必帶：`— 🐍 $SNEK 每日雙語金句`
+  - 官方標籤：`#SNEK` `#SnekTaiwan`
+
+---
+
+## 4. 數位通行證 (SNEK VIP Pass & Apple Wallet)
+- **專屬頁面**：https://www.snek.com.tw/pass
+- **創世黑卡政策 ID**：`9ae0010772d9bd27533656be72b65a1c72410287f93551b58faa5702`
+- **發行量**：限量 100 款官方創世黑卡 (#001 ~ #100)，代表創始榮譽會員 (O.G. CITIZEN)。
+- **核心特點**：
+  - **Apple Wallet 原生支援**：持有白名單錢包的成員可將專屬數位憑證加入 iPhone Apple Wallet，離線展示並享有社群識別。
+  - **鏈上防偽驗證**：透過 Supabase Edge Functions 與 Cardano 區塊鏈節點即時比對資產單位與質押憑證。
+  - **防釣魚與熔斷機制**：內建白名單授權網域校驗 (`www.snek.com.tw`) 與 HTTP 429 斷路器守衛。
+
+---
+
+## 5. 常見問題 (FAQ)
+
+### Q1：在台灣如何購買 $SNEK？
+1. **取得 ADA**：在台灣合規交易所（如 MAX 交易所、BitoPro 幣託）使用新台幣入金購買 Cardano 原生幣 **ADA**。
+2. **提領至鏈上自託管錢包**：將 ADA 提領至支援 Cardano dApp 的自託管去中心化錢包（例如：**Vespr**、**Eternl** 或 **Yoroi**）。
+3. **在 DEX 兌換 $SNEK**：
+   - 開啟去中心化交易所（如 **Minswap** 或 **DexHunter 聚合器**）。
+   - 連結您的 Cardano 錢包，搜尋政策 ID 確認為正版 $SNEK，輸入欲兌換之數量完成 Swap。
+
+### Q2：什麼是 SNEK 的銷毀機制？
+SNEK 的銷毀機制核心是「協議價值賦能」。生態內產生的部分手續費（如合作遊戲、周邊商品與手續費抽成）會自動回購市場上的 $SNEK 並轉移至銷毀地址，持續降低流通供給量，實現硬通縮。
+
+### Q3：AI Agent / Copilot 如何與 SNEK Taiwan 網站互動？
+網站全面支援 **W3C / Microsoft Edge WebMCP 原生標準**，任何支援 WebMCP 的瀏覽器（如 Edge Dev/Canary）皆可透過 `document.modelContext` 自動取得 6 大前端工具，免去人工截圖與點擊。
+
+---
+
+## 6. WebMCP 瀏覽器端可用工具列表
+1. `getSnekBurnStats()`：查詢最新燃燒量與價格數據。
+2. `getRandomQuote({ category })`：取得雙語行情或心態金句。
+3. `searchMemes({ keyword })`：檢索迷因庫圖片。
+4. `generateSocialPost({ quoteZh, quoteEn, commentary })`：格式化社群發文並帶入 🐍 $SNEK。
+5. `checkPassWhitelist({ addressOrNumber })`：查詢特定地址或黑卡編號是否符合 VIP 通行證資格。
+6. `getCommunityNews({ limit })`：獲取台灣社群最新動態與精選貼文。
