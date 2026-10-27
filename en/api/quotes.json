@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "market_001",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "牛市賺錢，熊市賺幣；能走過週期的人，才懂沈默的重量。",
+    "en": "Bulls bring wealth, bears bring coins; only those who endure cycles know the silence.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_002",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "跌到谷底的好處是，往後的每一步都是向上。",
+    "en": "The beauty of rock bottom is that every next step is upward.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_003",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "真正的大行情，永遠誕生在絕望與孤獨的沈默裡。",
+    "en": "The greatest rallies are always born in despair and silence.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_004",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "不必預測每一次浪潮，只要學會像海一樣沈穩包容。",
+    "en": "Don't predict every wave; learn to be as steady as the ocean.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_005",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "行情會騙走你的情緒，但洗不掉你手裡的信仰。",
+    "en": "Market swings deceive your emotions, but cannot wash away your conviction.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_006",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "在喧囂時保持冷靜，在恐慌時看見星光。",
+    "en": "Stay calm amidst the hype; find starlight within the panic.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_007",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "持幣不是等待暴富，而是一場與時間長跑的修行。",
+    "en": "Holding isn't waiting for quick wealth, but a long spiritual run with time.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_008",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "市場最殘酷的溫柔，是把浮躁的人洗回現實。",
+    "en": "The cruelest grace of the market is returning the restless back to reality.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_009",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "紅線練心，綠線收成；耐得住寂寞，才守得住繁華。",
+    "en": "Red candles temper the mind, green candles bring harvest; patience guards prosperity.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_010",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "每一次回調，都是為了下一次起跳積蓄深沉的力量。",
+    "en": "Every pullback gathers deep strength for the next leap forward.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_011",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "買在無人問津處，賣在人聲鼎沸時。",
+    "en": "Buy when no one cares, sell when the crowd roars.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_012",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "波動是市場的呼吸，學會與它的節奏共舞。",
+    "en": "Volatility is the breath of the market; learn to dance with its rhythm.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_013",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "決定你高度的不是行情的順風，而是逆風時的姿態。",
+    "en": "Your height is determined not by tailwinds, but by your posture against headwinds.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_014",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "不要因為一時的陰雨，就懷疑太陽照常升起的能力。",
+    "en": "Never doubt the sunrise just because of passing rain.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_015",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "賺你認知以內的利潤，睡你良心安穩的夜晚。",
+    "en": "Earn within your understanding, sleep with peaceful conscience.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_016",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "最好的策略往往最簡單：看準、坐穩、不被雜音驚擾。",
+    "en": "The best strategy is simple: see clearly, sit tight, ignore the noise.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_017",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "時間是好資產的朋友，卻是投機者的致命毒藥。",
+    "en": "Time is a friend to good assets, but fatal poison to speculators.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_018",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "暴富是運氣的偶遇，守富是智慧的積累。",
+    "en": "Windfall is a stroke of luck; preserving wealth is accumulated wisdom.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_019",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "別把帳戶數字當作全部人生，它只是你認知變現的影子。",
+    "en": "Don't mistake account balance for life; it is only a shadow of your insight.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_020",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "風吹草動皆是幻象，扎根深處方得安寧。",
+    "en": "Every gust is mere illusion; peace comes only from deep roots.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_021",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "每一次暴跌，都是一次重新審視初心的機會。",
+    "en": "Every crash is an opportunity to re-examine your true conviction.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_022",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "弱者隨波逐流，智者於風浪中靜觀深淵。",
+    "en": "The weak drift with waves; the wise observe the abyss with calm.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_023",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "手中有幣，心中無盤，方能參透漲跌的本質。",
+    "en": "Hold coins without chart obsession; only then you grasp true cycles.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_024",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "錯過的利潤是市場的學費，守住的本金是未來的種子。",
+    "en": "Missed gains are tuition fees; preserved capital is tomorrow's seed.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_025",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "歷史不會重複，但人性的貪婪與恐懼總在押韻。",
+    "en": "History doesn't repeat, but human greed and fear always rhyme.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_026",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "耐力比智商更重要，能熬過寒冬的就是贏家。",
+    "en": "Endurance outshines raw wit; those who survive winter claim victory.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_027",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "市場永遠不缺機會，缺的是能守住利潤的雙手。",
+    "en": "The market never lacks chances, only hands disciplined enough to hold gains.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_028",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "寧可慢慢變富，也不在衝動中歸零。",
+    "en": "Better to grow wealthy slowly than to reset to zero in haste.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_029",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "黎明前的夜空最暗，但啟明星早已悄然亮起。",
+    "en": "The darkest hour precedes the dawn, yet the morning star already shines.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_030",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "將恐慌留給昨天，把耐心留給明天的日出。",
+    "en": "Leave panic in yesterday; save patience for tomorrow's sunrise.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_031",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "真正的高手，在別人瘋狂時離場，在別人絕望時播種。",
+    "en": "Masters exit during frenzy, and sow seeds during despair.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_032",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "震盪不是折磨，而是把籌碼交給堅定者的儀式。",
+    "en": "Choppiness isn't torture, but a ritual transferring coins to the strong.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_033",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "給價值一點發酵的時間，它會回報你超乎想像的醇香。",
+    "en": "Give value time to ferment; it returns an aroma beyond imagination.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_034",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "學會空倉的寧靜，才能領會滿倉的從容。",
+    "en": "Master the stillness of cash, and you master the grace of holding.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_035",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "市場是一面鏡子，照出的不是代幣，而是你內心的欲望。",
+    "en": "The market is a mirror reflecting not tokens, but your inner desires.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_036",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "當所有人都在看天花板時，智者在加固地基。",
+    "en": "While all gaze at ceilings, the wise reinforce foundations.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_037",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "每一次燃燒，都在為未來的價值築起不可撼動的高牆。",
+    "en": "Every burn erects an unshakable wall for tomorrow's value.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_038",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "把虧損當作地圖上的標記，它指引著成熟的方向。",
+    "en": "Treat losses as landmarks on the map; they point toward maturity.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_039",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "在雜訊過載的世界裡，清晰的定力就是最鋒利的武器。",
+    "en": "In a world flooded with noise, clear resolve is the sharpest blade.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_040",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "你無法叫醒裝睡的人，就像你無法阻止牛市的到來。",
+    "en": "You cannot wake those pretending to sleep, nor can you halt the coming bull.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_041",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "敬畏市場，感謝週期，每一種經歷都是最好的資產。",
+    "en": "Respect the market and cycles; every experience is your greatest asset.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_042",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "長期的樂觀主義者，終將收穫歲月最豐厚的餽贈。",
+    "en": "Long-term optimists will ultimately reap time's richest bounty.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_043",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "別把短期的運氣，錯當成長期的實力。",
+    "en": "Never mistake short-term luck for enduring strength.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_044",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "當你不再焦慮於分秒的波動，你已經贏了一半。",
+    "en": "When minute fluctuations no longer anxious you, half the battle is won.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_045",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "種一棵樹最好的時間是十年前，其次是現在。",
+    "en": "The best time to plant a tree was ten years ago; the second best is now.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_046",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "堅持不是頑固，而是看透本質後的矢志不渝。",
+    "en": "Persistence isn't stubbornness, but unyielding faith after seeing through reality.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_047",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "在最深的谷底，把種子深深埋下，等待春雷響起。",
+    "en": "At the deepest canyon, bury your seeds and await the spring thunder.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_048",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "不被短期暴富迷惑，方能守住世代傳承的財富。",
+    "en": "Resist instant riches, and you preserve generational wealth.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_049",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "蛇形前行，雖曲折婉轉，卻每一步都穩穩貼合大地。",
+    "en": "The snake winds its way gracefully, yet every step embraces the earth.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "market_050",
+    "category": "market",
+    "categoryName": "行情心態",
+    "zh": "相信信仰的力量，因為奇蹟總是留給最執著的靈魂。",
+    "en": "Believe in the power of faith, for miracles favor the most steadfast souls.",
+    "tag": "#行情 #心態"
+  },
+  {
+    "id": "life_001",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "允許自己偶爾停下腳步。走得慢一點沒關係，只要方向是對的。",
+    "en": "Allow yourself to pause. It's fine to walk slowly as long as you head right.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_002",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "沿途那些被你忽略的花草，都是時間送給你的溫柔。",
+    "en": "The roadside blossoms you overlooked are gentle gifts from time.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_003",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "凡是讓你痛苦的，最終都會化作你骨子裡的堅定。",
+    "en": "Everything that brings pain will ultimately forge steel into your bones.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_004",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "把期待降低一點，生活裡處處都是意外的驚喜。",
+    "en": "Lower expectations just a bit, and life greets you with pleasant wonders.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_005",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "你不需要成為任何人，做你自己就已經足夠了不起。",
+    "en": "You don't need to be anyone else; being yourself is already extraordinary.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_006",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "日落是一天的謝幕，也是明天希望的序曲。",
+    "en": "Sunset is dusk's farewell, but also the gentle overture to tomorrow's hope.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_007",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "風吹哪頁讀哪頁，今天開心今天過。",
+    "en": "Read whichever page the wind turns; live happily in today's sunshine.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_008",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "生活沒有標準答案，每個人都有屬於自己的花期。",
+    "en": "Life has no standard answers; everyone has their own season to blossom.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_009",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "去愛這熱氣騰騰的生活，別讓瑣事耗盡你的光芒。",
+    "en": "Cherish this vibrant everyday life; let no trivial dust dim your glow.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_010",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "別把過去的包袱帶進明天，太陽每天都是新的。",
+    "en": "Leave yesterday's burden behind; the morning sun is renewed each dawn.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_011",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "學會與不完美和解，那是光照進來的地方。",
+    "en": "Embrace your imperfections, for that is where the light slips in.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_012",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "做一個溫柔而強大的人，眼裡有光，心中有海。",
+    "en": "Be gentle yet formidable, with starlight in your eyes and oceans in your soul.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_013",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "迷茫時就低頭走路，走著走著，路就開闊了。",
+    "en": "When lost, focus on taking steps; keep walking, and horizons will open.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_014",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "所有的遺憾，都是為了未來更好的相逢做鋪墊。",
+    "en": "Every regret simply paves the road for a far sweeter reunion ahead.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_015",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "放鬆點，宇宙自有它的節奏，你沒有落後於任何人。",
+    "en": "Breathe easy; the universe has its rhythm, and you are behind no one.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_016",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "真正的成熟，不是變得圓滑，而是對世界依然懷抱善意。",
+    "en": "Maturity isn't turning cynical, but maintaining kindness toward the world.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_017",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "給自己一點時間，連種子破土而出都需要等待春雨。",
+    "en": "Give yourself time; even seeds await spring rain before piercing the soil.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_018",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "不必討好所有人，懂你的人自然會看見你的美好。",
+    "en": "Never please everyone; those meant for you naturally see your radiance.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_019",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "把平凡的日子過出詩意，就是最浪漫的英雄主義。",
+    "en": "Infusing poetry into ordinary days is the purest form of romantic heroism.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_020",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "心若向陽，無謂悲傷；步履不停，終達所向。",
+    "en": "Face the sun and leave sorrow behind; keep stepping forward to your dream.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_021",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "每個認真生活的人，都在用平凡書寫偉大。",
+    "en": "Everyone living earnestly writes greatness with their humble days.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_022",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "願你歷經千帆，歸來仍是那個眼裡帶笑的少年。",
+    "en": "May you sail through rough seas, yet return with the smile of youth.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_023",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "不要因為別人的評價，懷疑自己盛開的美麗。",
+    "en": "Never let another's whisper cast doubt upon your blossoming beauty.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_024",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "安靜下來，傾聽內心的聲音，那是靈魂的指南針。",
+    "en": "Quiet down and listen within; your inner whisper is the soul's compass.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_025",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "生活像一杯清茶，初嚐苦澀，細品方覺回甘悠長。",
+    "en": "Life is like clear tea: bitter at first sip, sweet upon quiet reflection.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_026",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "別著急，最好的事物往往藏在漫長的等待之後。",
+    "en": "No rush; life's finest treasures are hidden behind patient waiting.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_027",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "擁抱每一個脆弱的瞬間，那是生命長出韌性的起點。",
+    "en": "Embrace fragile moments; they are where resilience begins to take root.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_028",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "今天也是值得被認真對待的一天，記得好好愛自己。",
+    "en": "Today is worthy of tender care; remember to love yourself deeply.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_029",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "內心的豐盈，遠比外在的喧鬧更具穿透歲月的美感。",
+    "en": "Inner richness outlasts noisy fanfare with timeless grace.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_030",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "只要心中有一畝花田，荒漠裡也能綻放春光。",
+    "en": "As long as a garden blooms in your heart, spring awakens even in deserts.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_031",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "感謝那些咬牙堅持的夜晚，它們默默鑄造了今天的你。",
+    "en": "Thank those nights you endured; they quietly sculpted who you are today.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_032",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "把步調放慢，生活不是短跑，而是一場品嚐風景的漫步。",
+    "en": "Slow your pace; life isn't a sprint, but a scenic stroll to savor.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_033",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "願你的世界乾淨明亮，常有微風，常有暖陽。",
+    "en": "May your world be clear and bright, blessed with gentle breeze and warm sun.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_034",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "不與他人比長短，只跟昨天的自己爭朝夕。",
+    "en": "Compare with no one else; measure yourself only against yesterday.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_035",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "當你開始愛自己，整個世界都會跟著溫柔起來。",
+    "en": "The moment you cherish yourself, the universe softens around you.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_036",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "不必光芒萬丈，只要在自己的角落安靜發光就好。",
+    "en": "You need not dazzle the galaxy; shining gently in your corner is enough.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_037",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "每一次跌倒，都是大地給予你最深沉的托舉。",
+    "en": "Every fall is the earth giving you its deepest, solid support.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_038",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "保持熱愛，奔赴山海，忠於自己，不負歲月。",
+    "en": "Hold passion dear, seek mountains and oceans, stay true to yourself.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_039",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "把溫暖留給身邊的人，把清醒留給未來的路。",
+    "en": "Offer warmth to those near you, keep clarity for the road ahead.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_040",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "沒有不可治癒的傷痛，沒有不能結束的沉淪。",
+    "en": "No wound is beyond healing; no darkness lasts forever.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_041",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "走過泥濘，每一步踩出的腳印都將盛開繁花。",
+    "en": "Wade through mud; every footprint left behind will bloom into flowers.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_042",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "心寬一寸，病退一丈；心若放晴，人生無雨。",
+    "en": "Expand your heart an inch; when the soul clears, rain never falls.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_043",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "與其焦慮未來，不如把當下的每一分每一秒過好。",
+    "en": "Rather than dreading tomorrow, live this very second to its fullest.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_044",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "願你眼裡有星河璀璨，心中有萬物生長。",
+    "en": "May your eyes hold brilliant stars and your heart nurture living joy.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_045",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "簡單的心境，才能裝得下純粹的幸福。",
+    "en": "Only a simple spirit has space to hold pure, unadulterated bliss.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_046",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "學會釋懷，不是原諒他人，而是放過自己。",
+    "en": "Letting go isn't forgiving others, but setting your own soul free.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_047",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "所有的堅持，終將在某個晨曦化作漫天彩霞。",
+    "en": "All perseverance will turn into sunrise auroras one golden morning.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_048",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "累了就休息，明天太陽升起時，世界依然嶄新。",
+    "en": "Rest when tired; when the sun rises, the earth is born anew.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_049",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "做自己生命的主角，不要在別人的故事裡跑龍套。",
+    "en": "Be the protagonist of your life, not an extra in someone else's script.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "life_050",
+    "category": "life",
+    "categoryName": "人生雞湯",
+    "zh": "願時間善待每一個溫柔的人，願所行皆坦途。",
+    "en": "May time treat gentle hearts kindly, and may all paths lead to peace.",
+    "tag": "#人生 #自癒"
+  },
+  {
+    "id": "love_001",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛情不是找一個完美的人，而是學會擁抱一個不完美卻願意停留的靈魂。",
+    "en": "Love isn't finding perfection, but embracing an imperfect soul who stays.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_002",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "最好的相遇，不是眼裡有光，而是彼此成為光。",
+    "en": "The sweetest encounter isn't seeing light, but becoming light for each other.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_003",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛不是相互凝視，而是兩個人看向同一個遠方。",
+    "en": "Love does not consist in gazing at each other, but looking in the same direction.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_004",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願意為你慢下腳步的人，才是心裡真正有你的人。",
+    "en": "The one who slows their pace for you is the one who truly holds you dear.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_005",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "真正的深情，是即使看透你的脆弱，依然選擇緊握雙手。",
+    "en": "True devotion is seeing your fragility, yet holding your hand tighter.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_006",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "浪漫不是送昂貴的禮物，而是日常瑣碎裡每一個溫柔的眼神。",
+    "en": "Romance isn't lavish gifts, but tender glances hidden in mundane days.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_007",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "遇見你之前我不信命運，遇見你之後我感謝所有的曲折。",
+    "en": "Before you, I doubted fate; after you, I thank every winding road.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_008",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "兩個人在一起最好的狀態，是相處不累，久處不厭。",
+    "en": "The best bond is where silence feels effortless and time brings no boredom.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_009",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是在漫長時光裡，一次又一次重新愛上同一個人。",
+    "en": "Love is falling in love with the exact same soul, again and again over time.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_010",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願有人懂你的欲言又止，懂你盔甲背後的溫柔。",
+    "en": "May someone understand your pauses and the tender heart behind your armor.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_011",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "我見過山海與繁星，唯有你的眼眸最讓我心動。",
+    "en": "I have seen oceans and starlight, yet only your gaze stirs my heart.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_012",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是同甘共苦的默契，是不論風雨都願意站在你身旁。",
+    "en": "Love is unspoken solidarity, standing beside you through every storm.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_013",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "世間最美的情話，不是我愛你，而是有我在。",
+    "en": "The sweetest vow isn't 'I love you', but 'I am right here with you'.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_014",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願你的深情不被辜負，願你的溫柔有人珍藏。",
+    "en": "May your devotion never be betrayed, and your tenderness cherished forever.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_015",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "好的愛情會讓你更愛這個世界，而不是讓你失去自己。",
+    "en": "Noble love makes you love the world more, never losing yourself in it.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_016",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "只要身邊是你，沿途的每寸荒涼都能開出繁花。",
+    "en": "As long as it is you beside me, every barren road blooms with flowers.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_017",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "想牽你的手，走過晨光微熹，走過暮色蒼茫。",
+    "en": "I wish to hold your hand through twilight dawn and misty twilight dusk.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_018",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛不是佔有與束縛，而是成為彼此最溫暖的港灣。",
+    "en": "Love isn't possession or chains, but becoming each other's safest harbor.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_019",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "在所有人潮湧動的街頭，我的目光始終只追隨你一人。",
+    "en": "Amidst crowded boulevards, my gaze seeks only your silhouette.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_020",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "陪伴是最長情的告白，相守是最溫暖的諾言。",
+    "en": "Presence is the longest confession; staying close is the warmest promise.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_021",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "遇見你，是我平凡歲月裡最驚艷的一場意外。",
+    "en": "Meeting you was the most breathtaking accident in my quiet years.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_022",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "因為有你，寒冬的風都多了一抹甜甜的溫度。",
+    "en": "Because of you, even winter's chill carries a hint of sweet warmth.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_023",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是把心裡最柔軟的那一角，毫無保留地留給你。",
+    "en": "Love is reserving the softest corner of your heart wholly for another.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_024",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "真正的默契，是一個眼神就勝過千言萬語。",
+    "en": "True resonance is a single glance speaking louder than ten thousand words.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_025",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願歲月可回首，且以深情共白頭。",
+    "en": "May we look back on years passed, hand in hand into silver hair.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_026",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "你在哪裡，哪裡就是我想回去的家。",
+    "en": "Wherever you are, that is the home my restless heart longs for.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_027",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "我喜歡你，像風走了八千里，不問歸期。",
+    "en": "I love you as the wind travels eight thousand miles, without asking return.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_028",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是理解對方的無奈，包容彼此的任性。",
+    "en": "Love understands quiet struggles and gently shelters willful moods.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_029",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "世界再喧囂，只要靠在你肩頭，心就找到了歸宿。",
+    "en": "No matter how loud the world is, resting on your shoulder brings peace.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_030",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "最好的伴侶，是朋友、是知己，也是靈魂的另一半。",
+    "en": "The finest partner is a friend, a confidant, and the soul's other half.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_031",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願你遇見一個人，免你驚，免你苦，許你一世安穩。",
+    "en": "May you meet one who shields you from fear, offering lifelong sanctuary.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_032",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛不是轟轟烈烈的誓言，而是細水長流的柴米油鹽。",
+    "en": "Love isn't roaring oaths, but gentle streams through everyday meals.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_033",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "每一次回眸，都慶幸身邊依然是你熟悉的笑容。",
+    "en": "Every glance back rejoices in finding your familiar, soothing smile.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_034",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "你是我疲憊生活裡唯一的解藥與歸宿。",
+    "en": "You are the sole antidote and gentle haven in my weary days.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_035",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願所有的深情都不被歲月沖淡，常愛常新。",
+    "en": "May deep affection never fade with time, ever radiant and renewed.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_036",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "只要你在，平凡的晚飯也能成為慶典。",
+    "en": "As long as you are near, even humble dinners turn into celebrations.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_037",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是彼此照耀，共同成為更好的人。",
+    "en": "Love is illuminating each other, blossoming together into better souls.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_038",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "在茫茫人海中相認，是命中註定最美的奇蹟。",
+    "en": "Recognizing each other in oceans of crowds is destiny's sweetest miracle.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_039",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願你的深愛得到迴響，願你的溫柔有人守護。",
+    "en": "May your deep love find its echo, and your gentle soul find guardian wings.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_040",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "我願做你的屋簷，為你擋下世間所有風雨。",
+    "en": "I will be your shelter, shielding you from every gale the world blows.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_041",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "真愛是看過所有的缺點後，依然覺得你是無價之寶。",
+    "en": "True love sees every flaw, yet treasures you as an invaluable gem.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_042",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "心動是一瞬間的火花，相守是一輩子的承諾。",
+    "en": "Heartbeats are instant sparks; walking together is a lifelong vow.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_043",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願有歲月可回望，願與所愛共長安。",
+    "en": "May past years be warm to recall, and days ahead tranquil with your love.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_044",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "你是深山裡的清泉，是我荒原上的微風。",
+    "en": "You are the spring in deep mountains, the gentle breeze across my plains.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_045",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "愛是不需要偽裝，在你面前可以安心做個小孩。",
+    "en": "Love needs no disguise; with you, I can safely remain a child.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_046",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "遇見你是所有故事的開始，也是最好的結局。",
+    "en": "Meeting you was the start of my story, and also its finest ending.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_047",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "把手給我，往後的春夏秋冬，我們一起走。",
+    "en": "Give me your hand; through every coming season, we shall walk as one.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_048",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "願你被世界溫柔以待，若沒有，我便做你的世界。",
+    "en": "May the world treat you tenderly; if not, I shall become your world.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_049",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "深愛不需要理由，你的存在就是我唯一的答案。",
+    "en": "Deep love asks for no reason; your existence is my singular answer.",
+    "tag": "#愛情 #共鳴"
+  },
+  {
+    "id": "love_050",
+    "category": "love",
+    "categoryName": "愛情心靈",
+    "zh": "執子之手，與子偕老，這是時光最浪漫的低語。",
+    "en": "Holding your hand till silver age; this is time's most romantic whisper.",
+    "tag": "#愛情 #共鳴"
+  }
+]

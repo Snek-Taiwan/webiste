@@ -1,0 +1,72 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SNEK Taiwan API",
+    "description": "提供 SNEK 台灣社群鏈上銷毀數據、雙語金句庫與迷因梗圖查詢",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://www.snek.com.tw"
+    }
+  ],
+  "paths": {
+    "/api/burn_tracker.json": {
+      "get": {
+        "operationId": "getSnekBurnStats",
+        "summary": "獲取 SNEK 官方最新燃燒量、銷毀美金價值與 24h 價格",
+        "description": "返回 SNEK 官方代幣銷毀進度 ($snekbuyburn)、已燃燒比例、24 小時市場價格與近期大額銷毀紀錄。",
+        "responses": {
+          "200": {
+            "description": "成功獲取燃燒統計資料",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/quotes.json": {
+      "get": {
+        "operationId": "getBilingualQuotes",
+        "summary": "獲取 SNEK 雙語金句庫清單",
+        "description": "返回包含行情心態 (market)、生活哲理 (life)、愛情執著 (love) 的中英對照金句列表。",
+        "responses": {
+          "200": {
+            "description": "成功獲取金句清單",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/memes.json": {
+      "get": {
+        "operationId": "getMemeGallery",
+        "summary": "獲取 SNEK 迷因圖庫清單",
+        "description": "返回 450+ 款由社群共創的 SNEK WebP 迷因圖檔名與發布日期。",
+        "responses": {
+          "200": {
+            "description": "成功獲取迷因圖清單",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
