@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.snek.com.tw/zh-Hans/blog</id>
+    <title>SNEK 台湾社群 | SNEK Taiwan Community Blog</title>
+    <updated>2026-10-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.snek.com.tw/zh-Hans/blog"/>
+    <subtitle>SNEK 台湾社群 | SNEK Taiwan Community Blog</subtitle>
+    <icon>https://www.snek.com.tw/zh-Hans/img/media-kit/Token/svg/Snek-Round-BG.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[SNEK 街机小游戏：先行试玩开放！]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest"/>
+        <updated>2026-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[喜爱 SNEK 的伙伴们，官网的网页街机小游戏「SNEK 幸存者」抢先体验版现已开放试玩！现在只要打开浏览器，点击顶部导览列的「街机游戏」，就能随时展开一场紧张刺激的 Rogue-lite 生存挑战。]]></summary>
+        <content type="html"><![CDATA[<p>喜爱 SNEK 的伙伴们，官网的网页街机小游戏「<strong>SNEK 幸存者</strong>」抢先体验版现已开放试玩！现在只要打开浏览器，点击顶部导览列的「<a href="https://www.snek.com.tw/zh-Hans/game/" target="_blank" rel="noopener noreferrer" class=""><strong>街机游戏</strong></a>」，就能随时展开一场紧张刺激的 Rogue-lite 生存挑战。</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="SNEK Arcade Preview" src="https://www.snek.com.tw/zh-Hans/assets/images/Snek%20Banana%201200x630-ec69004f4423a3f9fa62b3dfc6e213f9.webp" width="1200" height="630" class="img_V3Nd"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-试玩说明早期开发中预览">⚠️ 试玩说明：早期开发中预览<a href="https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest#%EF%B8%8F-%E8%AF%95%E7%8E%A9%E8%AF%B4%E6%98%8E%E6%97%A9%E6%9C%9F%E5%BC%80%E5%8F%91%E4%B8%AD%E9%A2%84%E8%A7%88" class="hash-link" aria-label="⚠️ 试玩说明：早期开发中预览的直接链接" title="⚠️ 试玩说明：早期开发中预览的直接链接" translate="no">​</a></h2>
+<p>需要向大家特别说明的是，<strong>这还不是正式的完整版本</strong>！</p>
+<p>游戏目前仍处于积极开发与迭代阶段，还有许多机制与功能（包含更丰富的战斗装备、全球排行榜竞赛、音效细节与战斗数值平衡）正在陆续施工中。</p>
+<p>这次抢先开放先行试玩，主要希望让社群伙伴们能第一时间感受操控 SNEK 蛇蛇迎战各路迷因首领的乐趣，并借此收集大家的真实游玩反馈，帮助我们把游戏做得更耐玩、更有趣！</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="-目前版本核心体验">🎮 目前版本核心体验<a href="https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest#-%E7%9B%AE%E5%89%8D%E7%89%88%E6%9C%AC%E6%A0%B8%E5%BF%83%E4%BD%93%E9%AA%8C" class="hash-link" aria-label="🎮 目前版本核心体验的直接链接" title="🎮 目前版本核心体验的直接链接" translate="no">​</a></h2>
+<p>即使还在早期开发阶段，目前的试玩版已经具备完整的核心战斗乐趣：</p>
+<ul>
+<li class="">🚀 <strong>免安装随开即玩</strong>：原生纯网页开发，手机支援虚拟摇杆与单指滑动，电脑支援键盘 WASD 操作。</li>
+<li class="">⚔️ <strong>迎战 10 大迷因首领</strong>：每一关都拥有专属战斗机制的 Meme Boss（始祖神犬、悲伤蛙神、万亿巨鲸、戴帽神柴、球棒制裁者等陆续登场）。</li>
+<li class="">💾 <strong>进度自动储存与关卡直通</strong>：战胜首领自动储存当下战力快照，下次可直接挑选已击败首领直通开战。</li>
+<li class="">🌐 <strong>全双语系支援</strong>：即时支援繁体中文与英文双语切换。</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="️-立即进入游戏试玩">🕹️ 立即进入游戏试玩<a href="https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest#%EF%B8%8F-%E7%AB%8B%E5%8D%B3%E8%BF%9B%E5%85%A5%E6%B8%B8%E6%88%8F%E8%AF%95%E7%8E%A9" class="hash-link" aria-label="🕹️ 立即进入游戏试玩的直接链接" title="🕹️ 立即进入游戏试玩的直接链接" translate="no">​</a></h2>
+<p>欢迎所有伙伴直接前往体验：</p>
+<p>👉 <strong><a href="https://www.snek.com.tw/zh-Hans/game/" target="_blank" rel="noopener noreferrer" class="">立即体验 SNEK 街机游戏（snek.com.tw/game/）</a></strong></p>
+<p>若在游玩过程中遇到任何问题或有天马行空的有趣点子，非常欢迎随时在官方 LINE 社群或 X（Twitter）上与我们分享，让我们一起把这款属于 SNEK 社群的小游戏打磨得更好玩！</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="官方公告" term="官方公告"/>
+        <category label="街机游戏" term="街机游戏"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[感谢 @SnekSignal 热情推荐！SNEK 台湾官网获海外社群主动推广]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/sneksignal-features-snek-taiwan</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/sneksignal-features-snek-taiwan"/>
+        <updated>2026-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[惊喜收获海外社群的热情应援！Cardano 生态知名情报帐号 @SnekSignal 最近发现了 SNEK 台湾社群官网（snek.com.tw），并主动在 X（Twitter）上发文帮我们向全球社群推广！]]></summary>
+        <content type="html"><![CDATA[<p>惊喜收获海外社群的热情应援！Cardano 生态知名情报帐号 <strong><a href="https://x.com/SnekSignal" target="_blank" rel="noopener noreferrer" class="">@SnekSignal</a></strong> 最近发现了 SNEK 台湾社群官网（<a href="https://snek.com.tw/" target="_blank" rel="noopener noreferrer" class="">snek.com.tw</a>），并主动在 X（Twitter）上发文帮我们向全球社群推广！</p>
+<!-- -->
+<p>@SnekSignal 在推文中特别点出：</p>
+<blockquote>
+<p>"$SNEK just got another regional door.<br>
+<!-- -->Snek 1u launched the official SNEK Taiwan site at snek.com.tw — Traditional Chinese hub for token resources, ecosystem updates, and a LINE group.<br>
+<strong>Culture scales when the local language does.</strong> 🐍"<br>
+<!-- -->—— <a href="https://x.com/SnekSignal/status/2110806414239174658" target="_blank" rel="noopener noreferrer" class="">@SnekSignal on X</a></p>
+</blockquote>
+<p>「<strong>当在地语言普及时，文化就能规模化传播。</strong>」</p>
+<p>非常感谢 @SnekSignal 看到我们的在地努力，并热心向海外社群介绍台湾！有了这份跨国伙伴的自发推广与支持，我们会更加努力把繁体中文的 SNEK 与 Cardano 社群阵地深耕做好！</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="Cardano" term="Cardano"/>
+        <category label="台湾社群" term="台湾社群"/>
+        <category label="官方公告" term="官方公告"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SNEK 创世通行证 NFT 正式发行！专属 3D 数位卡夹同步上线]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/snek-genesis-pass-nft</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/snek-genesis-pass-nft"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SNEK 台湾社群正式发行专属「SNEK 创世尊爵通行证（SNEK Genesis VIP Pass）」NFT！全系列限量发行 100 款独立卡面，代表着对 SNEK 早期核心支持者与社群伙伴的永久荣誉认证。]]></summary>
+        <content type="html"><![CDATA[<p>SNEK 台湾社群正式发行专属「<strong>SNEK 创世尊爵通行证（SNEK Genesis VIP Pass）</strong>」NFT！全系列限量发行 100 款独立卡面，代表着对 SNEK 早期核心支持者与社群伙伴的永久荣誉认证。</p>
+<p>同时，官方网站的专属数位卡夹（<a class="" href="https://www.snek.com.tw/zh-Hans/pass">snek.com.tw/pass</a>）已同步就绪，让持有者能在网页上直接与自己的 NFT 进行 3D 互动与应用！</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="SNEK Genesis Pass #002" src="https://www.snek.com.tw/zh-Hans/assets/images/SnekPass002-721928bfa62ee25d6386c8b3faf0d328.webp" width="1200" height="750" class="img_V3Nd"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="链上发行基本资讯">链上发行基本资讯<a href="https://www.snek.com.tw/zh-Hans/blog/snek-genesis-pass-nft#%E9%93%BE%E4%B8%8A%E5%8F%91%E8%A1%8C%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%AE%AF" class="hash-link" aria-label="链上发行基本资讯的直接链接" title="链上发行基本资讯的直接链接" translate="no">​</a></h2>
+<p>为确保所有社群伙伴能精准验证，本系列所有卡片皆在 Cardano 主网铸造，资讯透明公开：</p>
+<ul>
+<li class=""><strong>发行公链</strong>：Cardano Mainnet</li>
+<li class=""><strong>发行总量</strong>：限量 100 张（目前首批已发行 19 位创始持有伙伴）</li>
+<li class=""><strong>官方政策识别码 (Policy ID)</strong>：<!-- -->
+<div class="language-text codeBlockContainer__pBT theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_N0yt"><pre tabindex="0" class="prism-code language-text codeBlock_f7aL thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_xtRx"><div class="token-line" style="color:#393A34"><span class="token plain">9ae0010772d9bd27533656be72b65a1c72410287f93551b58faa5702</span><br></div></code></pre></div></div>
+</li>
+<li class=""><strong>资产名称规则</strong>：<code>SnekPass001</code> ~ <code>SnekPass100</code></li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>安全提醒</strong>：请务必认明上述唯一的官方 Policy ID，防范任何未经授权的仿冒代币。</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="在官网上可以做什么">在官网上可以做什么？<a href="https://www.snek.com.tw/zh-Hans/blog/snek-genesis-pass-nft#%E5%9C%A8%E5%AE%98%E7%BD%91%E4%B8%8A%E5%8F%AF%E4%BB%A5%E5%81%9A%E4%BB%80%E4%B9%88" class="hash-link" aria-label="在官网上可以做什么？的直接链接" title="在官网上可以做什么？的直接链接" translate="no">​</a></h2>
+<p>官网已同步推出专属的 <a class="" href="https://www.snek.com.tw/zh-Hans/pass"><strong>3D 数位卡夹系统</strong></a>，为已取得卡片的 19 位伙伴提供以下专属互动体验：</p>
+<p><img decoding="async" loading="lazy" alt="官网专属 3D 数位卡夹功能示意图" src="https://www.snek.com.tw/zh-Hans/assets/images/pass_schematic_preview-9376c92a2c298dbc7b4906b00251b06d.webp" width="1200" height="675" class="img_V3Nd"></p>
+<ul>
+<li class=""><strong>免签署安全载入</strong>：输入 Cardano 钱包地址即可自动扫描，无需连结钱包或签署任何交易，零私钥泄漏风险。</li>
+<li class=""><strong>3D 拟真光影互动</strong>：支援滑鼠悬浮视差与手机陀螺仪动态光泽，点击即可翻转背面检视防伪密语。</li>
+<li class=""><strong>多版号卡夹聚合</strong>：同一钱包持有多张通行证时，卡夹自动聚合并提供切换器。</li>
+<li class=""><strong>专属收款 QR &amp; PWA</strong>：卡片背面内建专属接收条码，并支援一键加入手机主画面，随开即用。</li>
+</ul>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="Cardano" term="Cardano"/>
+        <category label="台湾社群" term="台湾社群"/>
+        <category label="官方公告" term="官方公告"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[狂贺！SNEK 台湾官网荣登 SNEK Timeline]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured"/>
+        <updated>2026-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SNEK 台湾社群迎来重大历史时刻！我们非常荣幸地向所有蛇家军伙伴宣布：SNEK 台湾社群官方网站（snek.com.tw）已于 2026 年 10 月 9 日正式被全球官方时间轴 SNEK Timeline 永久收录为社群核心里程碑（Community Milestone）！]]></summary>
+        <content type="html"><![CDATA[<p>SNEK 台湾社群迎来重大历史时刻！我们非常荣幸地向所有蛇家军伙伴宣布：SNEK 台湾社群官方网站（snek.com.tw）已于 2026 年 10 月 9 日正式被全球官方时间轴 <a href="https://snektimeline.com/" target="_blank" rel="noopener noreferrer" class="">SNEK Timeline</a> 永久收录为社群核心里程碑（Community Milestone）！</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="SNEK Timeline Milestone" src="https://www.snek.com.tw/zh-Hans/assets/images/2026-10-09_SNEK_TAIWAN_WEBSITE_LIVE-7553c086d24f1d40120416a94edac1b4.webp" width="1443" height="577" class="img_V3Nd"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="关于-snek-timeline">关于 SNEK Timeline<a href="https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured#%E5%85%B3%E4%BA%8E-snek-timeline" class="hash-link" aria-label="关于 SNEK Timeline的直接链接" title="关于 SNEK Timeline的直接链接" translate="no">​</a></h2>
+<p><a href="https://snektimeline.com/" target="_blank" rel="noopener noreferrer" class="">SNEK Timeline</a> 是由全球 SNEK 核心社群与生态先驱所维护的权威历史纪录库，由 The Snekverse（@snekcoinprice）与社群伙伴共同运营。它详实记录了 SNEK 自 2023 年创立以来每一次的重大生态发布、全球交易所上线、品牌跨界合作以及各大社群的重要突破。</p>
+<p>能够被列入这座象征 SNEK 发展史的殿堂，代表台湾在地社群的共识与努力获得了国际核心生态的高度认可与背书！</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="snek-timeline-收录内容">SNEK Timeline 收录内容<a href="https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured#snek-timeline-%E6%94%B6%E5%BD%95%E5%86%85%E5%AE%B9" class="hash-link" aria-label="SNEK Timeline 收录内容的直接链接" title="SNEK Timeline 收录内容的直接链接" translate="no">​</a></h2>
+<p>在 SNEK Timeline 2026 年 10 月 9 日的最新纪录中，官方以「<strong>SNEK Taiwan Website Officially Live!</strong>」为题正式刊登：</p>
+<blockquote>
+<p>"Snek 1u announced the official launch of the SNEK Taiwan community website at snek.com.tw. The Traditional Chinese hub targets local Web3 enthusiasts with token resources, ecosystem updates, and community guidelines focused on positive discussion. It also directs users to a LINE group to grow the regional Snek presence on Cardano."</p>
+<p>—— 摘录自 <a href="https://snektimeline.com/" target="_blank" rel="noopener noreferrer" class="">SNEK Timeline (2026-10-09)</a></p>
+</blockquote>
+<p>该篇纪录特别点出了由社群管理员 SNEK 1u 号召发起的繁体中文官方资讯阵地，肯定本站提供正确代币资讯、降低链上认知门槛，并透过 LINE 社群凝聚在地共识、扩大 Cardano 繁体中文影响力的深远价值。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="感谢全体台湾蛇家军伙伴">感谢全体台湾蛇家军伙伴<a href="https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured#%E6%84%9F%E8%B0%A2%E5%85%A8%E4%BD%93%E5%8F%B0%E6%B9%BE%E8%9B%87%E5%AE%B6%E5%86%9B%E4%BC%99%E4%BC%B4" class="hash-link" aria-label="感谢全体台湾蛇家军伙伴的直接链接" title="感谢全体台湾蛇家军伙伴的直接链接" translate="no">​</a></h2>
+<p>这份荣耀属于全台湾每一位喜爱 SNEK 的伙伴：</p>
+<ul>
+<li class="">感谢管理员 <strong>SNEK 1u</strong>（Threads: <a href="https://www.threads.com/@snek_1u" target="_blank" rel="noopener noreferrer" class="">@snek_1u</a>）的积极推进与社群把关。</li>
+<li class="">感谢热心协助翻译、文案撰写、网站测试与迷因创作的每一位志工。</li>
+<li class="">更感谢每天在 LINE 社群与 Telegram 互相解答新手疑问、分享欢乐迷因的热血蛇友！</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="未来展望与持续共建">未来展望与持续共建<a href="https://www.snek.com.tw/zh-Hans/blog/snek-timeline-featured#%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B%E4%B8%8E%E6%8C%81%E7%BB%AD%E5%85%B1%E5%BB%BA" class="hash-link" aria-label="未来展望与持续共建的直接链接" title="未来展望与持续共建的直接链接" translate="no">​</a></h2>
+<p>被 SNEK Timeline 收录是台湾社群的重要里程碑，但这仅仅是一个精彩的开始！</p>
+<p>未来我们将持续完善新手导引、追踪 Cardano 链上最新生态进展，并推动更多迷因创作与在地线上线下交流活动。</p>
+<p>如果您刚认识 SNEK，诚挚欢迎您探索本站各项资源，并点击下方社群入口加入我们的交流行列，一起见证 SNEK 走向全球迷因之巅！</p>
+<ul>
+<li class=""><a href="https://snektimeline.com/" target="_blank" rel="noopener noreferrer" class="">SNEK Timeline 官方里程碑页面</a></li>
+<li class=""><a href="https://x.com/snek_1u/status/2108439209774313830" target="_blank" rel="noopener noreferrer" class="">SNEK 1u 官方发布贴文 (X)</a></li>
+<li class=""><a class="" href="https://www.snek.com.tw/zh-Hans/#snek-pass">加入台湾 LINE 蛇家军交流社群</a></li>
+</ul>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="Cardano" term="Cardano"/>
+        <category label="台湾社群" term="台湾社群"/>
+        <category label="官方公告" term="官方公告"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SNEK 台湾社群官方网站正式上线]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/welcome-snek-taiwan</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/welcome-snek-taiwan"/>
+        <updated>2026-10-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[欢迎来到 SNEK 台湾社群官方网站！]]></summary>
+        <content type="html"><![CDATA[<p>欢迎来到 SNEK 台湾社群官方网站！</p>
+<p>本站旨在为台湾与全球繁体中文使用者提供最清晰、即时且完整的 Cardano $SNEK 代币社群与生态资讯。我们致力于降低 Web3 门槛，凝聚在地社群共识，传播热情欢乐的 SNEK 迷因文化。</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_RvC2" id="本站核心功能介绍">本站核心功能介绍<a href="https://www.snek.com.tw/zh-Hans/blog/welcome-snek-taiwan#%E6%9C%AC%E7%AB%99%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="本站核心功能介绍的直接链接" title="本站核心功能介绍的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>蛇家军入群守则</strong>：倡导社群核心理念——这里没有 FUD、只讨论蛇与日常闲聊、加入前请先至 Threads 私讯 SNEK 1u（<a href="https://www.threads.com/@snek_1u" target="_blank" rel="noopener noreferrer" class="">@snek_1u</a>）告知持仓。</li>
+<li class=""><strong>新人必备工具箱</strong>：整合 SNEK.com 官方入口、LINE 蛇家军大本营、Telegram 繁中交流群与官方 X。</li>
+<li class=""><strong>在地社群交流</strong>：提供最活跃的 LINE 与 Telegram 交流管道，新手解惑不迷路。</li>
+<li class=""><strong>多语系支援</strong>：预设繁体中文，支援完整英文切换，打造国际化社群门户。</li>
+</ul>
+<p>欢迎探索本站各项内容，并加入我们的社群一同交流讨论！</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="Cardano" term="Cardano"/>
+        <category label="台湾社群" term="台湾社群"/>
+        <category label="官方公告" term="官方公告"/>
+    </entry>
+</feed>

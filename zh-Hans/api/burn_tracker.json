@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-10-12T10:02:53.553382+00:00",
+  "token": {
+    "name": "Snek",
+    "symbol": "SNEK",
+    "policy_id": "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f",
+    "asset_name": "534e454b",
+    "fingerprint": "asset108xu02ckwrfc8qs9d97mgyh4kn8gdu9w8f5sxk",
+    "burn_address_handle": "$snekbuyburn"
+  },
+  "burn_stats": {
+    "initial_supply": 76715880000,
+    "circulating_supply": 74670298839,
+    "total_burned": 1484059968,
+    "burn_percentage": 1.934,
+    "burned_usd_value": 1302559.43
+  },
+  "market": {
+    "price_usd": 0.0008777,
+    "price_ada": 0.003491,
+    "fdv": 67336970.0,
+    "change_24h": 0.39,
+    "volume_24h": 493.88
+  },
+  "recent_burns": [
+    {
+      "tx_hash": "100d2c5087bb83b1a0f8968ae9d2789bd2626f5111614eb2c7b5014cc20a7326",
+      "timestamp": "2026-10-10T12:00:00Z",
+      "amount": 5000000,
+      "source": "$snekbuyburn 協議手續費銷毀",
+      "explorer_url": "https://cardanoscan.io/transaction/100d2c5087bb83b1a0f8968ae9d2789bd2626f5111614eb2c7b5014cc20a7326"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-500m",
+      "date": "2023-07-15",
+      "title": "突破 5 億顆 $SNEK 銷毀大關",
+      "burned_amount": 500000000,
+      "description": "官方正式啟動 $snekbuyburn 手續費回購機制，開啟持續通縮里程碑。"
+    },
+    {
+      "id": "milestone-1b",
+      "date": "2023-11-01",
+      "title": "突破 10 億顆 $SNEK 銷毀大關",
+      "burned_amount": 1000000000,
+      "description": "社群回購力道強勁，永久黑洞燃燒突破 10 億顆重要歷史關卡。"
+    },
+    {
+      "id": "milestone-1.2b",
+      "date": "2024-03-20",
+      "title": "實體產品營收銷毀突破 12 億顆",
+      "burned_amount": 1200000000,
+      "description": "結合 Snek.energy 能量飲料與周邊收益，代幣實質回購銷毀加速推進。"
+    },
+    {
+      "id": "milestone-1.48b",
+      "date": "2024-09-06",
+      "title": "Snek.fun 協議回購！累計銷毀突破 14.8 億顆 SNEK",
+      "burned_amount": 1484059968,
+      "description": "Cardano 首個代幣發射台 Snek.fun 協議手續費注入回購池，累計通縮率穩步邁向 2%。"
+    }
+  ]
+}

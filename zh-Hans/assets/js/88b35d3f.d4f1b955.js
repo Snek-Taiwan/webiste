@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["6195"],{2148(e){e.exports=JSON.parse('{"authors":[{"name":"SNEK Taiwan Team","title":"\u53F0\u6E7E\u63A8\u5E7F\u5FD7\u5DE5\u56E2\u961F","url":"https://www.snek.com.tw","key":"snek_team","page":null,"count":5}]}')}}]);

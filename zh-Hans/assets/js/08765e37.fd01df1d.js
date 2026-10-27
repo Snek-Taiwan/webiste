@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["665"],{263(a){a.exports=JSON.parse('{"metadata":{"permalink":"/zh-Hans/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"\u6700\u65B0\u6D88\u606F\u4E0E\u52A8\u6001","blogTitle":"\u6700\u65B0\u6D88\u606F"}}')}}]);

@@ -1,0 +1,27 @@
+# SNEK Taiwan ($SNEK 台灣社群官網)
+
+> 這是 Cardano 生態核心文化與社群代幣 $SNEK 的繁體中文官方社群網站。
+> 網站提供即時銷毀數據追蹤、450+ 迷因二創抽卡、雙語金句庫、以及 Snek Pass 數位會員卡。
+
+## 核心頁面與功能
+- [完整 LLM 上下文與詳細指南](/llms-full.txt): 包含代幣經濟學、合約政策 ID、購買教學與 VIP Pass 詳情
+- [迷因抽卡與金句庫](https://www.snek.com.tw/memes): 提供雙語金句與高畫質 1080x1350 迷因圖卡合成
+- [銷毀追蹤與代幣經濟](https://www.snek.com.tw/tokenomics): 實時追蹤 $snekbuyburn 協議手續費回購與永久銷毀總量
+- [數位通行證 Snek Pass](https://www.snek.com.tw/pass): 支援 Apple Wallet 數位會員憑證與鏈上驗證
+- [社群動態牆](https://www.snek.com.tw/feed): 全球與台灣社群最新動態精華
+
+## 關鍵合約與數據 (Cardano Mainnet)
+- 代幣名稱: Snek ($SNEK)
+- 政策 ID (Policy ID): 279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f
+- 創世黑卡政策 ID: 9ae0010772d9bd27533656be72b65a1c72410287f93551b58faa5702
+- 回購銷毀機制: $snekbuyburn
+- 發文標準後綴: `— 🐍 $SNEK 每日雙語金句`
+
+## 瀏覽器端 WebMCP 工具
+本站支援 Microsoft Edge / Chromium WebMCP 原生標準，AI 代理人可直接調用：
+- `getSnekBurnStats`: 查詢最新銷毀與價格走勢
+- `getRandomQuote`: 依分類抽取雙語金句
+- `searchMemes`: 檢索社群原創迷因梗圖
+- `generateSocialPost`: 產生社群排版連結
+- `checkPassWhitelist`: 驗證 Cardano 地址之 VIP 白名單資格
+- `getCommunityNews`: 獲取最新社群精選動態

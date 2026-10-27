@@ -1,0 +1,25 @@
+{
+  "name": "SNEK VIP PASS",
+  "short_name": "SNEK PASS",
+  "description": "SNEK Taiwan Genesis VIP Pass",
+  "start_url": "/pass",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080c09",
+  "theme_color": "#080c09",
+  "icons": [
+    {
+      "src": "/img/pass/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/pass/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

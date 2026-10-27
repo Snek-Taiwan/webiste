@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/zh-Hans/blog","blogTitle":"\u6700\u65B0\u6D88\u606F","authorsListPath":"/zh-Hans/blog/authors"}')}}]);
