@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.snek.com.tw/zh-Hans/blog</id>
     <title>SNEK 台湾社群 | SNEK Taiwan Community Blog</title>
-    <updated>2026-10-25T00:00:00.000Z</updated>
+    <updated>2026-11-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.snek.com.tw/zh-Hans/blog"/>
     <subtitle>SNEK 台湾社群 | SNEK Taiwan Community Blog</subtitle>
     <icon>https://www.snek.com.tw/zh-Hans/img/media-kit/Token/svg/Snek-Round-BG.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[新游戏《SNEK Merge》上线！]]></title>
+        <id>https://www.snek.com.tw/zh-Hans/blog/snek-merge-launch</id>
+        <link href="https://www.snek.com.tw/zh-Hans/blog/snek-merge-launch"/>
+        <updated>2026-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[物理掉落＋魔性合成！]]></summary>
+        <content type="html"><![CDATA[<p>物理掉落＋魔性合成！<br>
+<!-- -->从“新手韭菜”一路合到“机构巨鲸”，最终召唤【黄金 SNEK】冲上月球 🚀🌕<br>
+<!-- -->小心别让筹码堆满红线，否则当场强平出局 💥</p>
+<!-- -->
+<p>👉 <a href="https://www.snek.com.tw/zh-Hans/game/merge/" target="_blank" rel="noopener noreferrer" class=""><strong>立即前往街机试玩《SNEK Merge》</strong></a></p>
+<p>你能合出几只巨鲸？留言晒出你的最高分战绩！🏆</p>]]></content>
+        <author>
+            <name>SNEK Taiwan Team</name>
+            <uri>https://www.snek.com.tw</uri>
+        </author>
+        <category label="SNEK" term="SNEK"/>
+        <category label="官方公告" term="官方公告"/>
+        <category label="街机游戏" term="街机游戏"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SNEK 街机小游戏：先行试玩开放！]]></title>
         <id>https://www.snek.com.tw/zh-Hans/blog/snek-arcade-early-playtest</id>

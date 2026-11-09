@@ -4,10 +4,26 @@
         <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
         <link>https://www.snek.com.tw/blog</link>
         <description>SNEK 台灣社群 | SNEK Taiwan Community Blog</description>
-        <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hant</language>
+        <item>
+            <title><![CDATA[新遊戲《SNEK Merge》上線！]]></title>
+            <link>https://www.snek.com.tw/blog/snek-merge-launch</link>
+            <guid>https://www.snek.com.tw/blog/snek-merge-launch</guid>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[物理掉落＋魔性合成！]]></description>
+            <content:encoded><![CDATA[<p>物理掉落＋魔性合成！<br>
+<!-- -->從「新手韭菜」一路合到「機構巨鯨」，最終召喚【黃金 SNEK】衝上月球 🚀🌕<br>
+<!-- -->小心別讓籌碼堆滿紅線，否則當場強平出局 💥</p>
+<!-- -->
+<p>👉 <a href="https://www.snek.com.tw/game/merge/" target="_blank" rel="noopener noreferrer" class=""><strong>立即前往街機試玩《SNEK Merge》</strong></a></p>
+<p>你能合出幾隻巨鯨？留言曬出你的最高分戰績！🏆</p>]]></content:encoded>
+            <category>SNEK</category>
+            <category>官方公告</category>
+            <category>街機遊戲</category>
+        </item>
         <item>
             <title><![CDATA[SNEK 街機小遊戲：先行試玩開放！]]></title>
             <link>https://www.snek.com.tw/blog/snek-arcade-early-playtest</link>

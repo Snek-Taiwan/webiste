@@ -4,10 +4,26 @@
         <title>SNEK 台灣社群 | SNEK Taiwan Community Blog</title>
         <link>https://www.snek.com.tw/en/blog</link>
         <description>SNEK 台灣社群 | SNEK Taiwan Community Blog</description>
-        <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[New Game Released: SNEK Merge!]]></title>
+            <link>https://www.snek.com.tw/en/blog/snek-merge-launch</link>
+            <guid>https://www.snek.com.tw/en/blog/snek-merge-launch</guid>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Physics drop meets addictive merge mechanics!]]></description>
+            <content:encoded><![CDATA[<p>Physics drop meets addictive merge mechanics!<br>
+<!-- -->Merge your way from "Newbie Trader" all the way to "Institutional Whale", and summon the ultimate <strong>Golden SNEK</strong> to blast off to the moon! 🚀🌕<br>
+<!-- -->Watch out for the red margin line—cross it for too long, and your position gets liquidated! 💥</p>
+<!-- -->
+<p>👉 <a href="https://www.snek.com.tw/en/game/merge/" target="_blank" rel="noopener noreferrer" class=""><strong>Play SNEK Merge Now</strong></a></p>
+<p>How many whales can you merge? Share your high score with the community! 🏆</p>]]></content:encoded>
+            <category>SNEK</category>
+            <category>Announcements</category>
+            <category>Arcade Game</category>
+        </item>
         <item>
             <title><![CDATA[SNEK Arcade: Early Playtest Now Live!]]></title>
             <link>https://www.snek.com.tw/en/blog/snek-arcade-early-playtest</link>
