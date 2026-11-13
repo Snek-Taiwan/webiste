@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksnek_taiwan=self.webpackChunksnek_taiwan||[]).push([["9436"],{5736(e,t,a){a.r(t),a.d(t,{default:()=>u});var n=a(4686);a(2990);var s=a(8029),r=a(3942);function u(){let e=(0,r.Ay)("/temple");return(0,n.jsx)(s.rd,{to:e})}}}]);
