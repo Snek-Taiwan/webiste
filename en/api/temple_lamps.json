@@ -1,4 +1,47 @@
 {
-  "updatedAt": "2026-11-16T09:30:00Z",
-  "lamps": []
+  "updatedAt": "2026-11-18T01:27:20Z",
+  "lamps": [
+    {
+      "lamp_number": 34,
+      "nickname": "有種回0.003",
+      "wish": "富可敵國",
+      "lit_at": "2026-11-17T12:50:13.079718+00:00",
+      "stake_address": "stake1ux5jtxqtd4wwwqxat3mtqdauxvrjt3mpkzw3eja739x0dcqvsr465"
+    },
+    {
+      "lamp_number": 53,
+      "nickname": "財神",
+      "wish": "Snek+CHPY帶我飛",
+      "lit_at": "2026-11-17T12:10:15.178833+00:00",
+      "stake_address": "stake1u8jcqghel8ffu2t0x3v9hppmcwm49ptqm569nqfd3ddp4ucyuyr02"
+    },
+    {
+      "lamp_number": 54,
+      "nickname": "snek 1u",
+      "wish": "snek 1u 蛇家軍一起贏！",
+      "lit_at": "2026-11-17T11:25:46.391449+00:00",
+      "stake_address": "stake1u98ly5u4nme840h4lxrdhn5xdpmatc7p9s7da2dh6csfycg4kr20x"
+    },
+    {
+      "lamp_number": 62,
+      "nickname": "UniGreen",
+      "wish": "Snek 8888",
+      "lit_at": "2026-11-17T13:57:06.614103+00:00",
+      "stake_address": "stake1uxnj2fycac3y89fmc6kycvwnf62q5scjedd7z5echje2mvgmy9dk7"
+    },
+    {
+      "lamp_number": 75,
+      "nickname": "犬",
+      "wish": "一燈照破千山暗，眾友同開萬貫財！",
+      "lit_at": "2026-11-17T12:49:11.81795+00:00",
+      "stake_address": "stake1u8suer2kzt58ad0v94d0yqy35vv4aldnu2clpmsksrmrw8cqhhy97"
+    },
+    {
+      "lamp_number": 100,
+      "nickname": "膏戰",
+      "wish": "Bless SNEK fam & frens!",
+      "lit_at": "2026-11-17T03:22:37.503702+00:00",
+      "stake_address": "stake1u8jhtmpceaknul8k5vhks8npljdx7fwgxh7lugpy3pmhg4qa6ld4z"
+    }
+  ]
 }
